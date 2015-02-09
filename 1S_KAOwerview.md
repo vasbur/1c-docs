@@ -34,6 +34,7 @@
 -   Поиск по списку ИНН, для получения результата в асинхронном режиме,
     можно воспользоваться методом GetCounteragentListByInnList объекта объекта
     Organization
+
                     //Получаем результат асинхронной операции по строке содержащей список ИНН
                     CounteragentList=   Organization.GetCounteragentListByInnList(СтрокаИНН);
 
@@ -56,6 +57,7 @@
 
 -   AcquireCounteragent
     – отправка запроса и подтверждение входящего запроса от контрагента.
+
                     //Находим контрагента по ИНН/КПП
                     CounteragentList = Organization.GetCounteragentListByInnKpp(ИНН, КПП);
                     Counteragent = CounteragentList.GetItem(0);
