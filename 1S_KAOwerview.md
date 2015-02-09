@@ -33,8 +33,8 @@
                     КонецЦикла;
                   
 -   Поиск по списку ИНН, для получения результата в асинхронном режиме,
-    можно воспользоваться методом GetCounteragentListByInnList объекта объекта
-    Organization
+    можно воспользоваться методом [GetCounteragentListByInnList](1S_GetCounteragentListByInnList) объекта объекта
+   [Organization](1S_Organization_Desc)
 
                     //Получаем результат асинхронной операции по строке содержащей список ИНН
                     CounteragentList=   Organization.GetCounteragentListByInnList(СтрокаИНН);
