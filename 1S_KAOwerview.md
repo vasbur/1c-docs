@@ -19,7 +19,7 @@
 
 -   Поиск по ИНН/КПП в синхронном режиме, для этого можно использовать
     метод
-    [GetCounteragentListByInnKpp](GetCounteragentListByInnKpp)
+    [GetCounteragentListByInnKpp](1S_GetCounteragentListByInnKpp)
 
                     ЯщикиКонтрагентов = Новый Массив;
 
