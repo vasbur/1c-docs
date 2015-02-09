@@ -71,6 +71,7 @@
 
 -   BreakWithCounteragent
     – отклонение запроса и разрыв существующего партнерства.
+
                     //Находим контрагента по ИНН/КПП
                     CounteragentList = Organization.GetCounteragentListByInnKpp(ИНН, КПП);
                     Counteragent = CounteragentList.GetItem(0);
