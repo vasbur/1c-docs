@@ -15,7 +15,7 @@ COM-объект
 ссылке <https://diadoc.kontur.ru/sdk/DiadocSdk.zip>.
 
 Порядок подключения компоненты описан [в соответствующем
-разделе](1S_Loading).
+разделе](1S_ConnectionOwerview).
 
 С помощью данной компоненты можно:
 
