@@ -15,4 +15,4 @@
 
 Объект можно получить, вызвав метод
 [GetReceiptGenerationProcess](1S_GetReceiptGenerationProcess) объекта
-[Organization](1S_Organization_Desc)
+[Organization](Организация)

@@ -11,7 +11,7 @@ GetOrganizationById(\<BoxId\>)
     Диадоке
 
 Возвращаемое значение
-Объект [Organization](1S_Organization_Desc).
+Объект [Organization](Организация).
 
 Описание
 Возвращает организацию в Диадоке с идентификатором BoxId в случае, если

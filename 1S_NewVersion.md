@@ -108,7 +108,7 @@
     [GetCounteragentListByInnKpp](1S_GetCounteragentListByInnKpp),
     [GetDocumentEventList](1S_GetDocumentEventList),
     [GetUsers](1S_GetUsers), а также свойства: Departments в классе
-    [Organization](1S_Organization_Desc); Subdepartments в классе
+    [Organization](Организация); Subdepartments в классе
     [Department](1S_Department_Desc); InitialDocumentIds,
     SubordinateDocumentIds, Resolutions в классе
     [Document](1S_Document_Desc).

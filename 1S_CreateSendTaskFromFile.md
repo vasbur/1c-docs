@@ -1,7 +1,7 @@
 ﻿CreateSendTaskFromFile 
 ======================
 
-Метод объекта [Organization](1S_Organization_Desc)
+Метод объекта [Organization](Организация)
 
 Синтаксис
 CreateSendTaskFromFile(\<Path\>, \<Type\>)

@@ -47,7 +47,7 @@ COM-объект
     - [Соединение](1S_DiadocConnection_Desc)
       - [GetOrganizationList](1S_GetOrganizationList)
       - [GetOrganizationById](1S_GetOrganizationById)
-    - [Организация](1S_Organization_Desc)
+    - [Организация](Организация)
       - [GetCounteragentListByStatus](1S_GetCounteragentListByStatus)
       - [GetCounteragentListByStatusAsync](1S_GetCounteragentListByStatusAsync)
       - [GetCounteragentById](1S_GetCounteragentById)

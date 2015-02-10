@@ -1,4 +1,4 @@
-## AddIn Diadoc API
+﻿## AddIn Diadoc API
 [Отличия версии 3.0 от предыдущих версий](1S_NewVersion)
 
 [История изменений](1s_ReleaseNotes)
@@ -22,7 +22,7 @@
     - [Соединение](1S_DiadocConnection_Desc)
       - [GetOrganizationList](1S_GetOrganizationList)
       - [GetOrganizationById](1S_GetOrganizationById)
-    - [Организация](1S_Organization_Desc)
+    - [Организация](Организация)
       - [GetCounteragentListByStatus](1S_GetCounteragentListByStatus)
       - [GetCounteragentListByStatusAsync](1S_GetCounteragentListByStatusAsync)
       - [GetCounteragentById](1S_GetCounteragentById)

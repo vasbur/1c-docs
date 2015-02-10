@@ -34,7 +34,7 @@
                   
 -   Поиск по списку ИНН, для получения результата в асинхронном режиме,
     можно воспользоваться методом [GetCounteragentListByInnList](1S_GetCounteragentListByInnList) объекта
-   [Organization](1S_Organization_Desc)
+   [Organization](Организация)
 
                     //Получаем результат асинхронной операции по строке содержащей список ИНН
                     CounteragentList=   Organization.GetCounteragentListByInnList(СтрокаИНН);
@@ -87,12 +87,12 @@
 Для получения списка контрагентов в зависимости от статуса партнерства
 предназначен метод
 [GetCounteragentListByStatus](1S_GetCounteragentListByStatus) объекта
-[Organization](1S_Organization_Desc).
+[Organization](Организация).
 
 Для получения объекта [Counteragent](1S_Counteragent_Desc) по
 идентификатору ящика организации используется метод
 [GetCounteragentById](1S_GetCounteragentById) объекта
-[Organization](1S_Organization_Desc).
+[Organization](Организация).
 
 Важно. Партнерство с контрагентом необходимо устанавливать для каждой
 нашей организации.       

@@ -8,7 +8,7 @@ GetOrganizationList()
 
 Возвращаемое значение
 Коллекция [Collection](1S_Collection_Desc) объектов
-[Organization](1S_Organization_Desc).
+[Organization](Организация).
 
 Описание
 Возвращает список организаций в Диадоке, к которым пользователь имеет
