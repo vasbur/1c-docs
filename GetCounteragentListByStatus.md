@@ -1,7 +1,7 @@
 ﻿
 Метод объекта [Organization](Организация)
 
-Синтаксис:
+###Синтаксис:
 GetCounteragentListByStatus(\<Status\>)
 
 Параметры
