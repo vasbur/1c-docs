@@ -20,13 +20,13 @@
  Totals | [InvoiceTotals](1S_InvoiceTotals_Desc) | Чтение | --- | Общие итоги по документу
  Type | Строка | Чтение | --- | Тип документа
  Items | [Коллекция](Collection) объектов [InvoiceItem](1S_InvoiceItem_Desc)           Ч | тение          О | бязательно для заполнения                                                                                                    Т | абличная часть счет-фактуры
- PaymentDocuments | [Коллекция](Collection) объектов [PaymentDocument](1S_PaymentDocument_Desc)   Ч | тение          - | --                                                                                                                           С | писок платежно-расчетных документов
+ PaymentDocuments | [Коллекция](Collection) объектов [PaymentDocument](PaymentDocument)   Ч | тение          - | --                                                                                                                           С | писок платежно-расчетных документов
  AdditionalInfo | Строка | Чтение/запись | --- | Дополнительные сведения
 
 ###Методы объекта
  Метод | Описание
  ---------------------------------------------- | ---------------------------------------------------
- [AddItem](1S_AddItem1) | Добавляет строку в табличную часть счет-фактуры
+ [AddItem](AddItem (InvoiceContent)) | Добавляет строку в табличную часть счет-фактуры
  [AddPaymentDocument](AddPaymentDocument (InvoiceContent)) | Добавляет сведения о платежно-расчетном документе
 
 

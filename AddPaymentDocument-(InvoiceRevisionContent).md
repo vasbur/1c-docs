@@ -5,7 +5,7 @@
 AddPaymentDocument()
 
 Возвращаемое значение
-Объект [PaymentDocument](1S_PaymentDocumentRevision_Desc).
+Объект [PaymentDocument](PaymentDocument (Дубль)).
 
 Описание
 Позволяет добавить сведения о платежно-расчетном документе в коллекцию

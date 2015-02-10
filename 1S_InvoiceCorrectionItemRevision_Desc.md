@@ -1,4 +1,4 @@
-InvoiceCorrectionItem 
+﻿InvoiceCorrectionItem 
 =====================
 
 Сведения о товаре (работе, услуге) корректировочной счет-фактуры
@@ -9,8 +9,8 @@ InvoiceCorrectionItem
  Product | Строка | Чтение/запись | Обязательно для заполнения. Длина строка не более 1000 символов | Наименование товара
  OriginalValues | объект [InvoiceItemFields](1S_InvoiceItemFields_Desc) | Чтение | Обязательно для заполнения | Значения до корректировки
  CorrectedValues | объект [InvoiceItemFields](1S_InvoiceItemFields_Desc) | Чтение | Обязательно для заполнения | Значения после корректировки
- AmountsInc | объект [AmountsDiff](1S_AmountsDiff_Desc) | Чтение | --- | Суммы к увеличению
- AmountsDec | объект [AmountsDiff](1S_AmountsDiff_Desc) | Чтение | --- | Суммы к уменьшению
+ AmountsInc | объект [AmountsDiff](AmountsDiff) | Чтение | --- | Суммы к увеличению
+ AmountsDec | объект [AmountsDiff](AmountsDiff) | Чтение | --- | Суммы к уменьшению
  AdditionalInfo | Строка | Чтение/запись | Строка длиной не более 2000 символов | Произвольная дополнительная информация
 
 Методы отсутствуют

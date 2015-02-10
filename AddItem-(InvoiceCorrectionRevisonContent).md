@@ -1,6 +1,4 @@
-﻿AddItem (InvoiceCorrectionContent)
-=======
-
+﻿
 Метод объекта
 [InvoiceCorrectionContent](InvoiceCorrectionContent)
 
