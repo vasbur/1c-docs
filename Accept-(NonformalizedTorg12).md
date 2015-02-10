@@ -1,6 +1,4 @@
-﻿Accept 
-======
-
+﻿
 Метод объекта [NonformalizedTorg12](NonformalizedTorg12).
 
 Синтаксис

@@ -29,15 +29,15 @@ COM-объект
 -   Управлять списком контрагентов, документооборот с которыми
     происходит в электронном виде
 
-[Отличия версии 3.0 от предыдущих версий](1S_NewVersion)
+[Отличия версии 3.0 от предыдущих версий](Отличия версии 3.0 от предыдущих версий)
 
-[История изменений внешней компоненты](1s_ReleaseNotes)
+[История изменений внешней компоненты](История изменений внешней компоненты)
 
-[Примеры использования компоненты](1S_Overview)
+[Примеры использования компоненты](Примеры использования компоненты)
  
-[Методы и свойства](1S_Description)
+[Методы и свойства](Методы и свойства)
   - [Сервер Диадок](Chapter1)
-    - [Объект интерфейса Диадок](1S_DiadocObj_Desc)
+    - [Объект интерфейса Диадок](Объект интерфейса Диадок)
       - [TestConnection](TestConnection)
       - [GetVersion  ](GetVersion)
       - [GetPersonalCertificates ](GetPersonalCertificates)
@@ -67,7 +67,7 @@ COM-объект
       - [AcquireCounteragent](AcquireCounteragent)
       - [BreakWithCounteragent](BreakWithCounteragent)
   - [Документы](Документы)
-    - [Базовые методы](1S_BasicMethod)
+    - [Базовые методы](Базовые методы)
       - [SaveAllContent](SaveAllContent)
       - [SaveAllContentAsync](SaveAllContentAsync)
       - [GetComment](GetComment)
@@ -86,7 +86,7 @@ COM-объект
       - [AcceptRevocationRequest](AcceptRevocationRequest)
       - [RejectRevocationRequest](RejectRevocationRequest)
       - [GetPrintForm](GetPrintForm)
-    - [Производные методы](1S_DerivativesMethod)
+    - [Производные методы](Производные методы)
       - [Invoice](Invoice)
         - [GetAmendmentRequestedComment](1S_GetAmendmentRequestedComment1)
         - [SendCorrectionRequest](1S_SendCorrectionRequest1)
@@ -162,12 +162,12 @@ COM-объект
           - [AcceptanceCertificateBuyerContent](AcceptanceCertificateBuyerContent)
       - [NonformalizedTorg12](NonformalizedTorg12)
         - [GetRejectionComment](1S_GetRejectionComment)
-        - [Accept](1S_Accept)
+        - [Accept](Accept (NonformalizedTorg12))
         - [Reject](1S_Reject)
         - [Torg12Content](Torg12Content)
       - [NonformalizedAcceptanceCertificate](NonformalizedAcceptanceCertificate)
         - [GetRejectionComment](1S_GetRejectionComment_NAC)
-        - [Accept](1S_Accept_NAC)
+        - [Accept](Accept (NonformalizedAcceptanceCertificate))
         - [Reject](1S_Reject_NAC)
         - [AcceptanceCertificateContent](AcceptanceCertificateContent)
       - [NonformalizedProformaInvoice](NonformalizedProformaInvoice)

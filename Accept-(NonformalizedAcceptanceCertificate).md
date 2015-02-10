@@ -1,6 +1,4 @@
-﻿Accept 
-======
-
+﻿
 Метод объекта
 [NonformalizedAcceptanceCertificate](NonformalizedAcceptanceCertificate).
 
