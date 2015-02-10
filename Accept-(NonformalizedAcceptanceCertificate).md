@@ -2,11 +2,11 @@
 Метод объекта
 [NonformalizedAcceptanceCertificate](NonformalizedAcceptanceCertificate).
 
-Синтаксис
+###Синтаксис
 Accept()
 
-Возвращаемое значение
+###Возвращаемое значение
 Отсутствует
 
-Описание
+###Описание
 Формирует ответную подпись к документу.

@@ -2,11 +2,11 @@
 Метод объекта
 [AcceptanceCertificateSellerContent](AcceptanceCertificateSellerContent)
 
-Синтаксис
+###Синтаксис
 AddItem()
 
-Возвращаемое значение
+###Возвращаемое значение
 Объект [AcceptanceCertificateItem](AcceptanceCertificateItem).
 
-Описание
+###Описание
 Добавляет сведения о произведенной работе в коллекцию строк акта.

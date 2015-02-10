@@ -2,12 +2,12 @@
 Метод объекта
 [InvoiceCorrectionContent](InvoiceCorrectionContent)
 
-Синтаксис
+###Синтаксис
 AddItem()
 
-Возвращаемое значение
+###Возвращаемое значение
 Объект [InvoiceCorrectionItem](InvoiceCorrectionItem (Revision)).
 
-Описание
+###Описание
 Позволяет добавить сведения о товаре в коллекцию строк корректировочного
 счет-фактуры.

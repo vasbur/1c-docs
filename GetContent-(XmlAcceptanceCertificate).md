@@ -2,13 +2,13 @@
 Метод объекта
 [XmlAcceptanceCertificate](XmlAcceptanceCertificate).
 
-Синтаксис
+###Синтаксис
 GetContent()
 
-Возвращаемое значение
+###Возвращаемое значение
 Объект
 [AcceptanceCertificateSellerContent](AcceptanceCertificateSellerContent).
 
-Описание
+###Описание
 Возвращает содержание документа в виде объектной модели (титул
 продавца).

@@ -2,11 +2,11 @@
 Метод объекта
 [XmlAcceptanceCertificate](XmlAcceptanceCertificate).
 
-Синтаксис
+###Синтаксис
 CreateReplySendTask()
 
-Возвращаемое значение
+###Возвращаемое значение
 Объект [ReplySendTask](ReplySendTask).
 
-Описание
+###Описание
 Формирует задание для отправки титула заказчика.

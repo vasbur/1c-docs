@@ -2,11 +2,11 @@
 Метод объекта
 [NonformalizedAcceptanceCertificate](NonformalizedAcceptanceCertificate).
 
-Синтаксис
+###Синтаксис
 GetRejectionComment()
 
-Возвращаемое значение
+###Возвращаемое значение
 Строка. Комментарий к отказу в подписании.
 
-Описание
+###Описание
 Возвращает комментарий к отказу в подписании.

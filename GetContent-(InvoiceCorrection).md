@@ -1,12 +1,12 @@
 ﻿
 Метод объекта [InvoiceCorrection](InvoiceCorrection).
 
-Синтаксис
+###Синтаксис
 GetContent()
 
-Возвращаемое значение
+###Возвращаемое значение
 Объект [InvoiceCorrectionContent](InvoiceCorrectionContent).
 
-Описание
+###Описание
 Возвращает содержание корректировочного счет-фактуры в виде объектной
 модели.
