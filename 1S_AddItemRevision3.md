@@ -1,4 +1,4 @@
-﻿AddItem 
+﻿AddItem (InvoiceCorrectionContent)
 =======
 
 Метод объекта

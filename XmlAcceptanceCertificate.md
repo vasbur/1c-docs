@@ -49,11 +49,11 @@
 ###Методы объекта
  Метод | Описание
  --------------------------------------------------- | -------------------------------------------------------------------------------------------------
- [GetRejectionComment](1S_GetRejectionComment1) | Возвращает комментарий к отказу в подписании
- [Reject](1S_Reject1) | Формирует отказ в подписании документа
- [GetContent](1S_GetContent5) | Возвращает содержание документа (титул исполнителя) в виде объектной модели
- [GetBuyerContent](1S_GetBuyerContent1) | Возвращает содержание документа (титул заказчика) в виде объектной модели
- [CreateReplySendTask](1S_CreateReplySendTask1) | Формирует задание для отправки титула заказчика (для подписания документа со стороны заказчика)
- [SaveRecipientContent](1S_SaveRecipientContent1) | Сохраняет содержимое титула покупателя на локальный диск
+ [GetRejectionComment](GetRejectionComment (XmlAcceptanceCertificate)) | Возвращает комментарий к отказу в подписании
+ [Reject](Reject (XmlAcceptanceCertificate)) | Формирует отказ в подписании документа
+ [GetContent](GetContent (XmlAcceptanceCertificate)) | Возвращает содержание документа (титул исполнителя) в виде объектной модели
+ [GetBuyerContent](GetBuyerContent (XmlAcceptanceCertificate)) | Возвращает содержание документа (титул заказчика) в виде объектной модели
+ [CreateReplySendTask](CreateReplySendTask (XmlAcceptanceCertificate)) | Формирует задание для отправки титула заказчика (для подписания документа со стороны заказчика)
+ [SaveRecipientContent](SaveRecipientContent (XmlAcceptanceCertificate)) | Сохраняет содержимое титула покупателя на локальный диск
 
 

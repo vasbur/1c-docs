@@ -49,8 +49,8 @@
 ###Методы объекта
  Метод | Описание
  ---------------------------------------------------- | ----------------------------------------------
- [GetRejectionComment](1S_GetRejectionComment_NAC) | Возвращает комментарий к отказу в подписании
+ [GetRejectionComment](GetRejectionComment (NonformalizedAcceptanceCertificate)) | Возвращает комментарий к отказу в подписании
  [Accept](Accept (NonformalizedAcceptanceCertificate)) | Формирует подпись получателя документа
- [Reject](1S_Reject_NAC) | Формирует отказ в подписании документа
+ [Reject](Reject (NonformalizedAcceptanceCertificate)) | Формирует отказ в подписании документа
 
 

@@ -1,4 +1,4 @@
-﻿AddItem 
+﻿AddItem (InvoiceContent)
 =======
 
 Метод объекта [InvoiceContent](1S_InvoiceContent_Desc)

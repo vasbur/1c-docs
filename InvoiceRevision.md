@@ -34,9 +34,9 @@
 ###Методы объекта
  Метод | Описание
  ------------------------------------------------------------------- | -----------------------------------------------------------------------------------
- [GetContent](1S_GetContent4) | Возвращает содержание счет-фактуры в виде объектной модели
- [GetAmendmentRequestedComment](1S_GetAmendmentRequestedComment4) | Возвращает комментарий к уведомлению об уточнении
- [SendCorrectionRequest](1S_SendCorrectionRequest4) | Отправляет уведомление об уточнении счета-фактуры
+ [GetContent](GetContent (InvoiceRevision)) | Возвращает содержание счет-фактуры в виде объектной модели
+ [GetAmendmentRequestedComment](GetAmendmentRequestedComment (InvoiceRevision)) | Возвращает комментарий к уведомлению об уточнении
+ [SendCorrectionRequest](SendCorrectionRequest (InvoiceRevision)) | Отправляет уведомление об уточнении счета-фактуры
  [SendReceiptsAsync](1S_InvoiceRevision_SendReceiptsAsync) | Формирует и подписывает документы по регламентному документообороту счетов-фактур
 
 

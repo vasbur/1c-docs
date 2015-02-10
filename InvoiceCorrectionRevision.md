@@ -40,9 +40,9 @@
 ###Методы объекта
  Метод | Описание
  ---------------------------------------------------------------------- | -----------------------------------------------------------------------------------
- [GetContent](1S_GetContent3) | Возвращает содержание корректировочного счета-фактуры в виде объектной модели
- [GetAmendmentRequestedComment](1S_GetAmendmentRequestedComment3) | Возвращает комментарий к уведомлению об уточнении
- [SendCorrectionRequest](1S_SendCorrectionRequest3) | Отправляет уведомление об уточнении корректировочного счета-фактуры
+ [GetContent](GetContent (InvoiceCorrectionRevision)) | Возвращает содержание корректировочного счета-фактуры в виде объектной модели
+ [GetAmendmentRequestedComment](GetAmendmentRequestedComment (InvoiceCorrectionRevision)) | Возвращает комментарий к уведомлению об уточнении
+ [SendCorrectionRequest](SendCorrectionRequest (InvoiceCorrectionRevision)) | Отправляет уведомление об уточнении корректировочного счета-фактуры
  [SendReceiptsAsync](1S_InvoiceCorrectionRevision_SendReceiptsAsync) | Формирует и подписывает документы по регламентному документообороту счетов-фактур
 
 

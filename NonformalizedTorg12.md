@@ -49,8 +49,8 @@
 ###Методы объекта
  Метод | Описание
  ------------------------------------------------ | ----------------------------------------------
- [GetRejectionComment](1S_GetRejectionComment) | Возвращает комментарий к отказу в подписании
+ [GetRejectionComment](GetRejectionComment (NonformalizedTorg12)) | Возвращает комментарий к отказу в подписании
  [Accept](Accept (NonformalizedTorg12)) | Формирует подпись получателя документа
- [Reject](1S_Reject) | Формирует отказ в подписании документа
+ [Reject](Reject (NonformalizedTorg12)) | Формирует отказ в подписании документа
 
 
