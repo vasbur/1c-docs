@@ -2,13 +2,13 @@
 ==========
 
 Метод объекта
-[InvoiceCorrectionRevision](1S_InvoiceCorrectionRevision_Desc).
+[InvoiceCorrectionRevision](InvoiceCorrectionRevision).
 
 Синтаксис
 GetContent()
 
 Возвращаемое значение
-Объект [InvoiceCorrectionContent](1S_InvoiceCorrectionContent_Desc).
+Объект [InvoiceCorrectionContent](InvoiceCorrectionContent).
 
 Описание
 Возвращает содержание корректировочного счет-фактуры в виде объектной

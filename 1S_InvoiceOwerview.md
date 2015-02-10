@@ -5,9 +5,9 @@
 содержит механизм автоматизированного формирования и отправки всех
 технологических документов, которые требует [регламент документооборота
 ЭСФ](#InvoiceDocflow). Этот механизм инкапсулирован в объекте
-[ReceiptGenerationProcess](1S_ReceiptGenerationProcess_desc).
+[ReceiptGenerationProcess](ReceiptGenerationProcess).
 
-Объект [ReceiptGenerationProcess](1S_ReceiptGenerationProcess_desc)
+Объект [ReceiptGenerationProcess](ReceiptGenerationProcess)
 имеет методы Start, Stop, предназначенные для запуска и остановки
 процесса, соответственно. Процесс формирования технологических
 документов работает в фоновом потоке и не вносит задержек в работу

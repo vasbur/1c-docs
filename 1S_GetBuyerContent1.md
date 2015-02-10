@@ -2,14 +2,14 @@
 ===============
 
 Метод объекта
-[XmlAcceptanceCertificate](1S_XmlAcceptanceCertificate_Desc).
+[XmlAcceptanceCertificate](XmlAcceptanceCertificate).
 
 Синтаксис
 GetBuyerContent()
 
 Возвращаемое значение
 Объект
-[AcceptanceCertificateBuyerContent](1S_AcceptanceCertificateBuyerContent_Desc).
+[AcceptanceCertificateBuyerContent](AcceptanceCertificateBuyerContent).
 
 Описание
 Возвращает содержание документа в виде объектной модели (титул

@@ -2,7 +2,7 @@
 ======
 
 Метод объекта
-[XmlAcceptanceCertificate](1S_XmlAcceptanceCertificate_Desc).
+[XmlAcceptanceCertificate](XmlAcceptanceCertificate).
 
 Синтаксис
 Reject(\<Comment\>)

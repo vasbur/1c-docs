@@ -4,11 +4,11 @@
 v3.0.03.01 - 15.02.2014
 -   Появилась возможность аннулирования документов. Для отправки
     предложения об аннулировании используется метод
-    [SendRevocationRequest](1S_SendRevocationRequest) документа. Для
+    [SendRevocationRequest](SendRevocationRequest) документа. Для
     принятия предложения об аннулировании необходимо вызвать
-    [AcceptRevocationRequest](1S_AcceptRevocationRequest), для отказа
+    [AcceptRevocationRequest](AcceptRevocationRequest), для отказа
     от предложения об аннулировании -
-    [RejectRevocationRequest](1S_RejectRevocationRequest).
+    [RejectRevocationRequest](RejectRevocationRequest).
 
 v3.0.2 - 21.01.2014
 -   Выпущена редакция компоненты 3.0. Отличия от предыдущих версий можно

@@ -1,13 +1,13 @@
 ﻿SendReceiptsAsync 
 =================
 
-Метод объекта [InvoiceRevision](1S_InvoiceRevision_Desc).
+Метод объекта [InvoiceRevision](InvoiceRevision).
 
 Синтаксис
 SendReceiptsAsync()
 
 Возвращаемое значение
-Объект [AsyncResult](1S_AsyncResult_Desc), сигнализирующий об окончании
+Объект [AsyncResult](AsyncResult), сигнализирующий об окончании
 процесса формировании квитанций (значение true), либо о его продолжении
 (занчение false).
 

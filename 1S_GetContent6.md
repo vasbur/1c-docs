@@ -1,13 +1,13 @@
 ﻿GetContent 
 ==========
 
-Метод объекта [XmlTorg12](1S_XmlTorg12_Desc).
+Метод объекта [XmlTorg12](XmlTorg12).
 
 Синтаксис
 GetContent()
 
 Возвращаемое значение
-Объект [Torg12SellerContent](1S_Torg12SellerContent_Desc).
+Объект [Torg12SellerContent](Torg12SellerContent).
 
 Описание
 Возвращает содержание документа торг-12 в виде объектной модели (титул

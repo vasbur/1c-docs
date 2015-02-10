@@ -1,7 +1,7 @@
 ﻿Accept 
 ======
 
-Метод объекта [Contract](1S_Contract_Desc).
+Метод объекта [Contract](Contract).
 
 Синтаксис
 Accept()

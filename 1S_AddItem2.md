@@ -2,13 +2,13 @@
 =======
 
 Метод объекта
-[AcceptanceCertificateSellerContent](1S_AcceptanceCertificateSellerContent_Desc)
+[AcceptanceCertificateSellerContent](AcceptanceCertificateSellerContent)
 
 Синтаксис
 AddItem()
 
 Возвращаемое значение
-Объект [AcceptanceCertificateItem](1S_AcceptanceCertificateItem_Desc).
+Объект [AcceptanceCertificateItem](AcceptanceCertificateItem).
 
 Описание
 Добавляет сведения о произведенной работе в коллекцию строк акта.

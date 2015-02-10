@@ -1,7 +1,7 @@
 ﻿Send 
 ====
 
-Метод объекта [ResolutionRequestTask](1S_ResolutionRequestTask_Desc)
+Метод объекта [ResolutionRequestTask](ResolutionRequestTask)
 
 Синтаксис
 Send()

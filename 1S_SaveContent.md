@@ -1,7 +1,7 @@
 ﻿SaveContent 
 ===========
 
-Метод объекта [Document](1S_Document_Desc).
+Метод объекта [Document](Документы).
 
 Синтаксис
 SaveContent(\<FilePath\>)

@@ -8,7 +8,7 @@
 отношения невозможно.
 
 Для отражения сущности произвольной организации в Диадоке предназначен
-объект [Counteragent](1S_Counteragent_Desc).
+объект [Counteragent](Контрагент).
 
 ﻿Как найти контрагента 
 =================
@@ -19,7 +19,7 @@
 
 -   Поиск по ИНН/КПП в синхронном режиме, для этого можно использовать
     метод
-    [GetCounteragentListByInnKpp](1S_GetCounteragentListByInnKpp)
+    [GetCounteragentListByInnKpp](GetCounteragentListByInnKpp)
 
                     ЯщикиКонтрагентов = Новый Массив;
 
@@ -33,7 +33,7 @@
                     КонецЦикла;
                   
 -   Поиск по списку ИНН, для получения результата в асинхронном режиме,
-    можно воспользоваться методом [GetCounteragentListByInnList](1S_GetCounteragentListByInnList) объекта
+    можно воспользоваться методом [GetCounteragentListByInnList](GetCounteragentListByInnList) объекта
    [Organization](Организация)
 
                     //Получаем результат асинхронной операции по строке содержащей список ИНН
@@ -54,7 +54,7 @@
 
 Для отправки, принятия или отклонения запроса, а также для разрыва
 партнерских отношений используются методы объекта
-[Counteragent](1S_Counteragent_Desc):
+[Counteragent](Контрагент):
 
 -   AcquireCounteragent
     – отправка запроса и подтверждение входящего запроса от контрагента.
@@ -86,12 +86,12 @@
 
 Для получения списка контрагентов в зависимости от статуса партнерства
 предназначен метод
-[GetCounteragentListByStatus](1S_GetCounteragentListByStatus) объекта
+[GetCounteragentListByStatus](GetCounteragentListByStatus) объекта
 [Organization](Организация).
 
-Для получения объекта [Counteragent](1S_Counteragent_Desc) по
+Для получения объекта [Counteragent](Контрагент) по
 идентификатору ящика организации используется метод
-[GetCounteragentById](1S_GetCounteragentById) объекта
+[GetCounteragentById](GetCounteragentById) объекта
 [Organization](Организация).
 
 Важно. Партнерство с контрагентом необходимо устанавливать для каждой

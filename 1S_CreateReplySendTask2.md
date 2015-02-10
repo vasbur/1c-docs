@@ -1,13 +1,13 @@
 ﻿CreateReplySendTask 
 ===================
 
-Метод объекта [XmlTorg12](1S_XmlTorg12_Desc).
+Метод объекта [XmlTorg12](XmlTorg12).
 
 Синтаксис
 CreateReplySendTask()
 
 Возвращаемое значение
-Объект [ReplySendTask](1S_ReplySendTask_Desc).
+Объект [ReplySendTask](ReplySendTask).
 
 Описание
 Формирует задание для отправки титула покупателя.

@@ -10,8 +10,8 @@
 
     -   Для формализованных документов требуется сначала сформировать
         т.н. титул покупателя
-        [Torg12BuyerContent](1S_Torg12BuyerContent_Desc) или
-        [AcceptanceCertificateBuyerContent](1S_AcceptanceCertificateBuyerContent_Desc),
+        [Torg12BuyerContent](Torg12BuyerContent) или
+        [AcceptanceCertificateBuyerContent](AcceptanceCertificateBuyerContent),
         и создать задание методом
         [CreateReplySendTask](1S_CreateReplySendTask2)
 

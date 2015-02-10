@@ -1,7 +1,7 @@
 ﻿Send 
 ====
 
-Метод объекта [ReplySendTask](1S_ReplySendTask_Desc)
+Метод объекта [ReplySendTask](ReplySendTask)
 
 Синтаксис
 Send()

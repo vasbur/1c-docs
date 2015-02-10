@@ -2,7 +2,7 @@
 ============================
 
 Метод объекта
-[InvoiceCorrectionRevision](1S_InvoiceCorrectionRevision_Desc).
+[InvoiceCorrectionRevision](InvoiceCorrectionRevision).
 
 Синтаксис
 GetAmendmentRequestedComment()

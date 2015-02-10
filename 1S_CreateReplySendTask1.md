@@ -2,13 +2,13 @@
 ===================
 
 Метод объекта
-[XmlAcceptanceCertificate](1S_XmlAcceptanceCertificate_Desc).
+[XmlAcceptanceCertificate](XmlAcceptanceCertificate).
 
 Синтаксис
 CreateReplySendTask()
 
 Возвращаемое значение
-Объект [ReplySendTask](1S_ReplySendTask_Desc).
+Объект [ReplySendTask](ReplySendTask).
 
 Описание
 Формирует задание для отправки титула заказчика.

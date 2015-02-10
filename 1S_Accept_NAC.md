@@ -2,7 +2,7 @@
 ======
 
 Метод объекта
-[NonformalizedAcceptanceCertificate](1S_NonformalizedAcceptanceCertificate_Desc).
+[NonformalizedAcceptanceCertificate](NonformalizedAcceptanceCertificate).
 
 Синтаксис
 Accept()

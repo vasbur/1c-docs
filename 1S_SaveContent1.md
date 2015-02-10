@@ -1,7 +1,7 @@
 ﻿SaveContent 
 ===========
 
-Метод объекта [StructuredAttachment](1S_StructuredAttachment_Desc).
+Метод объекта [StructuredAttachment](StructuredAttachment).
 
 Синтаксис
 SaveContent(\<DirectoryPath\>)

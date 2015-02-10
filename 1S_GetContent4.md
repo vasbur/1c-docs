@@ -1,7 +1,7 @@
 ﻿GetContent 
 ==========
 
-Метод объекта [InvoiceRevision](1S_InvoiceRevision_Desc).
+Метод объекта [InvoiceRevision](InvoiceRevision).
 
 Синтаксис
 GetContent()

@@ -1,4 +1,4 @@
-InvoiceContent 
+﻿InvoiceContent 
 ==============
 
 Объект предназначен для работы с содержанием документов «счет-фактура» и
@@ -12,15 +12,15 @@ InvoiceContent
  InvoiceRevisionDate | Дата | Чтение/запись | --- | Дата исправленния счет-фактуры (обязательно при формировании InvoiceRevision)
  InvoiceRevisionNumber | Строка | Чтение/запись | Длина не более 3 символов | Номер исправления счет-фактуры (обязательно при формировании InvoiceRevision)
  Currency | Строка | Чтение/запись | Обязательно для заполнения. Числовая строка длиной 3 символа. Код должен содержаться в общероссийском классификаторе валют. | Код валюты
- Seller | объект [OrganizationInfo](1S_OrganizationInfo_Desc) | Чтение | Обязательно для заполнения | Данные продавца
- Buyer | объект [OrganizationInfo](1S_OrganizationInfo_Desc) | Чтение | Обязательно для заполнения | Данные покупателя
- Shipper | объект [ShipperOrConsigneeInfo](1S_ShipperOrConsigneeInfo_Desc) | Чтение | --- | Данные грузоотправителя
- Consignee | объект [ShipperOrConsigneeInfo](1S_ShipperOrConsigneeInfo_Desc) | Чтение | --- | Данные грузополучателя
- Signer | объект [Signer](1S_Signer_Desc) | Чтение | Обязательно для заполнения | Данные подписанта документа
+ Seller | объект [OrganizationInfo](OrganizationInfo) | Чтение | Обязательно для заполнения | Данные продавца
+ Buyer | объект [OrganizationInfo](OrganizationInfo) | Чтение | Обязательно для заполнения | Данные покупателя
+ Shipper | объект [ShipperOrConsigneeInfo](ShipperOrConsigneeInfo) | Чтение | --- | Данные грузоотправителя
+ Consignee | объект [ShipperOrConsigneeInfo](ShipperOrConsigneeInfo) | Чтение | --- | Данные грузополучателя
+ Signer | объект [Signer](Signer) | Чтение | Обязательно для заполнения | Данные подписанта документа
  Totals | [InvoiceTotals](1S_InvoiceTotals_Desc) | Чтение | --- | Общие итоги по документу
  Type | Строка | Чтение | --- | Тип документа
- Items | [Коллекция](1S_Collection_Desc) объектов [InvoiceItem](1S_InvoiceItem_Desc)           Ч | тение          О | бязательно для заполнения                                                                                                    Т | абличная часть счет-фактуры
- PaymentDocuments | [Коллекция](1S_Collection_Desc) объектов [PaymentDocument](1S_PaymentDocument_Desc)   Ч | тение          - | --                                                                                                                           С | писок платежно-расчетных документов
+ Items | [Коллекция](Collection) объектов [InvoiceItem](1S_InvoiceItem_Desc)           Ч | тение          О | бязательно для заполнения                                                                                                    Т | абличная часть счет-фактуры
+ PaymentDocuments | [Коллекция](Collection) объектов [PaymentDocument](1S_PaymentDocument_Desc)   Ч | тение          - | --                                                                                                                           С | писок платежно-расчетных документов
  AdditionalInfo | Строка | Чтение/запись | --- | Дополнительные сведения
 
 ###Методы объекта

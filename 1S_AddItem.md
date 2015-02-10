@@ -1,13 +1,13 @@
 ﻿AddItem 
 =======
 
-Метод объекта [Torg12SellerContent](1S_Torg12SellerContent_Desc)
+Метод объекта [Torg12SellerContent](Torg12SellerContent)
 
 Синтаксис
 AddItem()
 
 Возвращаемое значение
-Объект [Torg12Item](1S_Torg12Item_Desc).
+Объект [Torg12Item](Torg12Item).
 
 Описание
 Добавляет сведения о товаре в коллекцию строк торг-12.

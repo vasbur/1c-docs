@@ -1,13 +1,13 @@
 ﻿SendReceiptsAsync 
 =================
 
-Метод объекта [Invoice](1S_Invoice_Desc).
+Метод объекта [Invoice](Invoice).
 
 Синтаксис
 SendReceiptsAsync()
 
 Возвращаемое значение
-Объект [AsyncResult](1S_AsyncResult_Desc).
+Объект [AsyncResult](AsyncResult).
 
 Описание
 Формирует и подписывает документы по регламентному документообороту

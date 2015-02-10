@@ -1,7 +1,7 @@
 ﻿SendCorrectionRequest 
 =====================
 
-Метод объекта [InvoiceCorrection](1S_InvoiceCorrection_Desc).
+Метод объекта [InvoiceCorrection](InvoiceCorrection).
 
 Синтаксис
 SendCorrectionRequest( \<Comment\>)

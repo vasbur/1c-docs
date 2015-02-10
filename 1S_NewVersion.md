@@ -12,11 +12,11 @@
     выполнялось несколько запросов на сервер.
 
     Для реализации этой возможности создан класс
-    [AsyncResult](1S_AsyncResult_Desc), который уеет "сообщать" системе
+    [AsyncResult](AsyncResult), который уеет "сообщать" системе
     о том, что запрос на сервер выполнился. Данный класс возвращается,
-    например, методами [SendAsync](1S_SendAsync) (используется для
+    например, методами [SendAsync](SendAsync) (используется для
     асинхронной отправки документа) и
-    [GetDocumentsAsync](1S_GetDocumentsAsync) (используется для
+    [GetDocumentsAsync](GetDocumentsAsync) (используется для
     асинхронного получения списка документов)
 
 -   Работа с содержимым формализованных документов
@@ -30,9 +30,9 @@
     документов, позволяющая работать с ними, не вдаваясь в особенности
     формирования xml-файлов. Для этого созданы классы
     [InvoiceContent](1S_InvoiceContent_Desc) (содержимое
-    счета-фактуры), [Torg12SellerContent](1S_Torg12SellerContent_Desc)
+    счета-фактуры), [Torg12SellerContent](Torg12SellerContent)
     (содержимое титула продавца ТОРГ-12),
-    [AcceptanceCertificateSellerContent](1S_AcceptanceCertificateSellerContent_Desc)
+    [AcceptanceCertificateSellerContent](AcceptanceCertificateSellerContent)
     (содержимое титула исполнителя акта выполненных работ).
 
 -   Работа на сервере 1с-предприятия.
@@ -102,16 +102,16 @@
     Collection
     .
     Изменения затронули следующие методы:
-    [GetPersonalSertificates](1S_DiadocObj_GetPersonalSertificates),
-    [GetOrganizationList](1S_GetOrganizationList),
-    [GetCounteragentListByStatus](1S_GetCounteragentListByStatus),
-    [GetCounteragentListByInnKpp](1S_GetCounteragentListByInnKpp),
-    [GetDocumentEventList](1S_GetDocumentEventList),
-    [GetUsers](1S_GetUsers), а также свойства: Departments в классе
+    [GetPersonalSertificates](GetPersonalCertificates),
+    [GetOrganizationList](GetOrganizationList),
+    [GetCounteragentListByStatus](GetCounteragentListByStatus),
+    [GetCounteragentListByInnKpp](GetCounteragentListByInnKpp),
+    [GetDocumentEventList](GetDocumentEventList),
+    [GetUsers](GetUsers), а также свойства: Departments в классе
     [Organization](Организация); Subdepartments в классе
-    [Department](1S_Department_Desc); InitialDocumentIds,
+    [Department](Department); InitialDocumentIds,
     SubordinateDocumentIds, Resolutions в классе
-    [Document](1S_Document_Desc).
+    [Document](Документы).
 
 -   При работе компоненты в версии 1С 7.7 изменена интерпретация
     логического значения. В старой версии компоненты значению "истина"

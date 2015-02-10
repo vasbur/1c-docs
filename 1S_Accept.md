@@ -1,7 +1,7 @@
 ﻿Accept 
 ======
 
-Метод объекта [NonformalizedTorg12](1S_NonformalizedTorg12_Desc).
+Метод объекта [NonformalizedTorg12](NonformalizedTorg12).
 
 Синтаксис
 Accept()

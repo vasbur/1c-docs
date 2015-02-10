@@ -1,7 +1,7 @@
 ﻿SaveContent 
 ===========
 
-Метод объекта [SendTask](1S_SendTask_Desc)
+Метод объекта [SendTask](SendTask)
 
 Синтаксис
 SaveContent(\<FilePath\>)

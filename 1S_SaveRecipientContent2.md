@@ -1,7 +1,7 @@
 ﻿SaveRecipientContent 
 ====================
 
-Метод объекта [XmlTorg12](1S_XmlTorg12_Desc).
+Метод объекта [XmlTorg12](XmlTorg12).
 
 Синтаксис
 SaveRecipientContent(\<FilePath\>)

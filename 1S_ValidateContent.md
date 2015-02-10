@@ -1,14 +1,14 @@
 ﻿ValidateContent 
 ===============
 
-Метод объекта [SendTask](1S_SendTask_Desc)
+Метод объекта [SendTask](SendTask)
 
 Синтаксис
 ValidateContent()
 
 Возвращаемое значение
-Объект [Collection](1S_Collection_Desc) - коллекция, объектов типа
-[ValidationError](1S_ValidationError_Desc)
+Объект [Collection](Collection) - коллекция, объектов типа
+[ValidationError](ValidationError)
 
 Описание
 Проверяет содержание документа на корректность заполнения и возвращает

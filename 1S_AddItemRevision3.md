@@ -2,7 +2,7 @@
 =======
 
 Метод объекта
-[InvoiceCorrectionContent](1S_InvoiceCorrectionContent_Desc)
+[InvoiceCorrectionContent](InvoiceCorrectionContent)
 
 Синтаксис
 AddItem()
