@@ -1,11 +1,11 @@
 ﻿
-Метод объекта [InvoiceContent](1S_InvoiceContent_Desc)
+Метод объекта [InvoiceContent](InvoiceContent)
 
 Синтаксис
 AddItem()
 
 Возвращаемое значение
-Объект [InvoiceItem](1S_InvoiceItem_Desc).
+Объект [InvoiceItem](InvoiceItem (Invoice)).
 
 Описание
 Добавляет сведения о товаре в коллекцию строк счет-фактуры.

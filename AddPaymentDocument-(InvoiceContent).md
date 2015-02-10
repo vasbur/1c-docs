@@ -1,5 +1,5 @@
 ﻿
-Метод объекта [InvoiceContent](1S_InvoiceContent_Desc)
+Метод объекта [InvoiceContent](InvoiceContent)
 
 Синтаксис
 AddPaymentDocument()

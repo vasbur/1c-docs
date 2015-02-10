@@ -43,6 +43,6 @@
  [GetContent](GetContent (InvoiceCorrectionRevision)) | Возвращает содержание корректировочного счета-фактуры в виде объектной модели
  [GetAmendmentRequestedComment](GetAmendmentRequestedComment (InvoiceCorrectionRevision)) | Возвращает комментарий к уведомлению об уточнении
  [SendCorrectionRequest](SendCorrectionRequest (InvoiceCorrectionRevision)) | Отправляет уведомление об уточнении корректировочного счета-фактуры
- [SendReceiptsAsync](1S_InvoiceCorrectionRevision_SendReceiptsAsync) | Формирует и подписывает документы по регламентному документообороту счетов-фактур
+ [SendReceiptsAsync](SendReceiptsAsync (InvoiceCorrectionRevision)) | Формирует и подписывает документы по регламентному документообороту счетов-фактур
 
 

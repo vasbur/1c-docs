@@ -1,6 +1,4 @@
-﻿SendReceiptsAsync 
-=================
-
+﻿
 Метод объекта [Invoice](Invoice).
 
 Синтаксис

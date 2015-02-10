@@ -5,7 +5,7 @@
 GetContent()
 
 Возвращаемое значение
-Объектная модель данных [InvoiceContent](1S_InvoiceContent_Desc)
+Объектная модель данных [InvoiceContent](InvoiceContent)
 
 Описание
 Возвращает содержание счет-фактуры в виде объектной модели.

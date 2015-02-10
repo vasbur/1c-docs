@@ -1,6 +1,4 @@
-﻿InvoiceContent 
-==============
-
+﻿
 Объект предназначен для работы с содержанием документов «счет-фактура» и
 «исправление счет-фактуры».
 
@@ -17,9 +15,9 @@
  Shipper | объект [ShipperOrConsigneeInfo](ShipperOrConsigneeInfo) | Чтение | --- | Данные грузоотправителя
  Consignee | объект [ShipperOrConsigneeInfo](ShipperOrConsigneeInfo) | Чтение | --- | Данные грузополучателя
  Signer | объект [Signer](Signer) | Чтение | Обязательно для заполнения | Данные подписанта документа
- Totals | [InvoiceTotals](1S_InvoiceTotals_Desc) | Чтение | --- | Общие итоги по документу
+ Totals | [InvoiceTotals](Итоги InvoiceTotals) | Чтение | --- | Общие итоги по документу
  Type | Строка | Чтение | --- | Тип документа
- Items | [Коллекция](Collection) объектов [InvoiceItem](1S_InvoiceItem_Desc)           Ч | тение          О | бязательно для заполнения                                                                                                    Т | абличная часть счет-фактуры
+ Items | [Коллекция](Collection) объектов [InvoiceItem](InvoiceItem (Invoice))           Ч | тение          О | бязательно для заполнения                                                                                                    Т | абличная часть счет-фактуры
  PaymentDocuments | [Коллекция](Collection) объектов [PaymentDocument](PaymentDocument)   Ч | тение          - | --                                                                                                                           С | писок платежно-расчетных документов
  AdditionalInfo | Строка | Чтение/запись | --- | Дополнительные сведения
 

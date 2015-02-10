@@ -1,7 +1,6 @@
-﻿SendReceiptsAsync 
-=================
-
-Метод объекта [InvoiceCorrection](InvoiceCorrection).
+﻿
+Метод объекта
+[InvoiceCorrectionRevision](InvoiceCorrectionRevision).
 
 Синтаксис
 SendReceiptsAsync()

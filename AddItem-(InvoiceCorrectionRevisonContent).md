@@ -6,7 +6,7 @@
 AddItem()
 
 Возвращаемое значение
-Объект [InvoiceCorrectionItem](1S_InvoiceCorrectionItemRevision_Desc).
+Объект [InvoiceCorrectionItem](InvoiceCorrectionItem (Revision)).
 
 Описание
 Позволяет добавить сведения о товаре в коллекцию строк корректировочного
