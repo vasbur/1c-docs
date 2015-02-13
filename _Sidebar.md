@@ -48,7 +48,7 @@
       - [Signer](Signer)
       - [Official](Official)
       - [Attorney](Attorney)
-  - [Прочие объекты](Chapter3)
+  - [Прочие объекты](Прочие объекты)
     - [CounteragentItem](CounteragentItem)
     - [Department](Department)
     - [DocumentEvent](DocumentEvent)
