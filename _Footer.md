@@ -1,4 +1,4 @@
-[AddIn Diadoc API](Home) - V 4.0
+[AddIn Diadoc API](Home) - V 4.0.0
 
 Все возникающие вопросы, связанные с интеграцией вашей системы с Диадоком, можно задавать на форуме либо в почту diadoc-api@skbkontur.ru.
 
