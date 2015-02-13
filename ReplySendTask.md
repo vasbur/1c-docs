@@ -2,18 +2,13 @@
 Объект предназначен для отправки титула покупателя документов «ТОРГ-12 в
 формате ФНС» и «акт о выполнении работ в формате ФНС».
 
-Свойства
+###Свойства
 
--   Content (объект
-    AcceptanceCertificateBuyerContent
-    либо
-    Torg12BuyerContent
-    , чтение) - титула покупателя
+-   Content (объект [AcceptanceCertificateBuyerContent](AcceptanceCertificateBuyerContent),  либо
+    [Torg12BuyerContent](Torg12BuyerContent), чтение) - титула покупателя
 
-Методы
+###Методы
 
--   ValidateContent
-    - проверить титул покупателя на корректность заполнения
--   Send
-    - отправить титул покупателя на сервер Диадок
+-   [ValidateContent](ValidateContent (ReplySendTask))   - проверить титул покупателя на корректность заполнения
+-   [Send](Send (ReplySendTask))   - отправить титул покупателя на сервер Диадок
 
