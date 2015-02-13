@@ -12,8 +12,8 @@
  Currency | Строка, чтение/запись | Обязательно для заполнения. Числовая строка длиной 3 символа. Код должен содержаться в общероссийском классификаторе валют. | Код валюты
  Seller | объект [OrganizationInfo](OrganizationInfo), чтение | Обязательно для заполнения | Данные продавца
  Buyer | объект [OrganizationInfo](OrganizationInfo), чтение | Обязательно для заполнения | Данные покупателя
- Shipper | объект [ShipperOrConsigneeInfo](ShipperOr ConsigneeInfo), чтение | --- | Данные грузоотправителя
- Consignee | объект [ShipperOrConsigneeInfo](ShipperOr ConsigneeInfo), чтение | --- | Данные грузополучателя
+ Shipper | объект [ShipperOr ConsigneeInfo](ShipperOrConsigneeInfo), чтение | --- | Данные грузоотправителя
+ Consignee | объект [ShipperOr ConsigneeInfo](ShipperOrConsigneeInfo), чтение | --- | Данные грузополучателя
  Signer | объект [Signer](Signer), чтение | Обязательно для заполнения | Данные подписанта документа
  Totals | [InvoiceTotals](Итоги InvoiceTotals), чтение | --- | Общие итоги по документу
  Type | Строка, чтение | --- | Тип документа
