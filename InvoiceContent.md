@@ -18,7 +18,7 @@
  Totals | [InvoiceTotals](Итоги InvoiceTotals) | Чтение | --- | Общие итоги по документу
  Type | Строка | Чтение | --- | Тип документа
  Items | [Коллекция](Collection) объектов [InvoiceItem](InvoiceItem (Invoice)) | Чтение | Обязательно для заполнения | Табличная часть счет-фактуры
- PaymentDocuments | [Коллекция](Collection) объектов [PaymentDocument](PaymentDocument) | Чтение | -- | Список платежно-расчетных документов
+ Payment Documents | [Коллекция](Collection) объектов [PaymentDocument](PaymentDocument) | Чтение | -- | Список платежно-расчетных документов
  AdditionalInfo | Строка | Чтение/запись | --- | Дополнительные сведения
 
 ###Методы объекта
