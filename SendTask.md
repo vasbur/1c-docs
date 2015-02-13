@@ -29,30 +29,17 @@
 
 Свойство \<Content\> имеет один из следующих типов
 
--   InvoiceContent
-    - счет-фактура/исправление счета-фактуры
--   InvoiceCorrectionContent
-    - корректировочный счет-фактура/исправление корректировочного
-    счета-фактуры
--   Torg12SellerContent
-    - товарная накладная ТОРГ-12 титул продавца
--   Torg12BuyerContent
-    - товарная накладная ТОРГ-12 титул покупателя
--   AcceptanceCertificateSellerContent
-    - акт о выполнении работ/оказании услуг титул исполнителя
--   AcceptanceCertificateBuyerContent
-    - акт о выполнении работ/оказании услуг титул заказчика
--   NonformilizedDocumentContent
-    - неформализованный документ/протокол согласования цены/реестр
-    сертификатов/акт сверки/детализация
--   Torg12Content
-    - товарная накладная ТОРГ-12 в неформализованном виде
--   AcceptanceCertificateContent
-    - акт о выполнении работ в неформализованном виде
--   ProformaInvoiceContent
-    - счет на оплату
--   ContractDocumentContent
-    - договор
+-  [InvoiceContent](InvoiceContent)  - счет-фактура/исправление счет-фактуры
+-  [InvoiceCorrectionContent](InvoiceCorrectionContent) - корректировочный счет-фактура/исправление корректировочного счет-фактуры
+-  [Torg12SellerContent](Torg12SellerContent) - товарная накладная ТОРГ-12 титул продавца
+-  [Torg12BuyerContent](Torg12BuyerContent) - товарная накладная ТОРГ-12 титул покупателя
+-  [AcceptanceCertificateSellerContent](AcceptanceCertificateSellerContent) - акт о выполнении работ/оказании услуг, титул исполнителя
+-  [AcceptanceCertificateBuyerContent](AcceptanceCertificateBuyerContent) - акт о выполнении работ/оказании услуг, титул заказчика
+-  [NonformilizedDocumentContent](NonformilizedDocumentContent) - неформализованный документ/протокол согласования цены/реестр сертификатов/акт сверки/детализация
+-   [Torg12Content](Torg12Content) - товарная накладная ТОРГ-12 в неформализованном виде
+-   [AcceptanceCertificateContent](AcceptanceCertificateContent) - акт о выполнении работ в неформализованном виде
+-   [ProformaInvoiceContent](ProformaInvoiceContent) - счет на оплату
+-   [ContractDocumentContent](ContractDocumentContent) - договор
 
 ###Методы
 
