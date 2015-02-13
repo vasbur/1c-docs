@@ -41,7 +41,7 @@
       - [NonformilizedContent](NonformilizedContent)
       - [Contract](Contract)
       - [ContractContent](ContractContent)
-    - [Общие структуры содержимого документов](Chapter2)
+    - [Общие структуры содержимого документов](Общие структуры содержимого документов)
       - [OrganizationInfo](OrganizationInfo)
       - [ShipperOrConsigneeInfo](ShipperOrConsigneeInfo)
       - [AddressInfo](AddressInfo)
