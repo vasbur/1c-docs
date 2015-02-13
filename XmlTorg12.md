@@ -54,6 +54,6 @@
  [GetContent](GetContent (XmlTorg12)) | Возвращает содержание документа (титул продавца) в виде объектной модели
  [GetBuyerContent](GetBuyerContent (XmlTorg12)) | Возвращает содержание документа (титул покупателя) в виде объектной модели
  [CreateReplySendTask](CreateReplySendTask (XmlTorg12)) | Формирует задание для отправки титула покупателя (для подписания документа со стороны покупателя)
- [SaveRecipientContent](SaveRecipientContent (XmlTorg12)) | Сохраняет содержимое титула покупателя на локальный диск
+ [SaveRecipientContent](SaveRecipientContent (XmlTorg12)) | Сохраняет содержимое титула получателя на локальный диск
 
 
