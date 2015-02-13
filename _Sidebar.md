@@ -36,7 +36,7 @@
       - [NonformalizedAcceptanceCertificate](NonformalizedAcceptanceCertificate)
       - [AcceptanceCertificateContent](AcceptanceCertificateContent)
       - [NonformalizedProformaInvoice](NonformalizedProformaInvoice)
-        - [ProformaInvoiceContent](ProformaInvoiceContent)
+      - [ProformaInvoiceContent](ProformaInvoiceContent)
       - [Nonformalized](Nonformalized)
         - [GetRejectionComment](GetRejectionComment (Nonformalized))
         - [Accept](Accept (Nonformalized))
