@@ -15,14 +15,14 @@
  GroundNumber | Строка, чтение/запись | Длина не более 256 символов | Номер документа-основания
  Seller | объект [OrganizationInfo](OrganizationInfo), чтение | Обязательно для заполнения | Данные продавца
  Buyer | объект [OrganizationInfo](OrganizationInfo), чтение | Обязательно для заполнения | Данные покупателя
- Shipper | объект [ShipperOrConsigneeInfo](ShipperOrConsigneeInfo), чтение | --- | Данные грузоотправителя
+ Shipper | объект [ShipperOr ConsigneeInfo](ShipperOrConsigneeInfo), чтение | --- | Данные грузоотправителя
  ShipperDepartment | Строка, чтение/запись | Длина не более 1000 символов | Структурное подразделение грузоотправителя
  ShipperOkdp | Строка, чтение/запись | Длина не более 7 символов | Код основного вида деятельности по ОКДП грузоотправителя
- Consignee | Объект [ShipperOrConsigneeInfo](ShipperOrConsigneeInfo), чтение | --- | Данные грузополучателя
+ Consignee | Объект [ShipperOr ConsigneeInfo](ShipperOrConsigneeInfo), чтение | --- | Данные грузополучателя
  Items | [Коллекция](Collection) объектов [Torg12Item](Torg12Item), чтение| Обязательно для заполнения                                | Табличная часть Торг-12
  Totals | Объект [Torg12Totals](Torg12Totals), чтение | --- | Итоги по накладной
  Commons | объект [Torg12Commons](Torg12Commons), чтение | --- | Общие сведения по накладной
- AttachmentSheetsQuantity | Число, чтение/запись | --- | Приложение, количество листов
+ AttachmentSheets Quantity | Число, чтение/запись | --- | Приложение, количество листов
  SupplyAllowedBy | Объект [Official](Official), чтение | --- | Отпуск груза разрешил
  ChiefAccountant | Объект [Official](Official), чтение | --- | Главный бухгалтер
  SupplyPerformedBy | Объект [Official](Official), чтение | --- | Отпуск груза произвел
