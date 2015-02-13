@@ -61,8 +61,8 @@
 -   [AddInitialDocument](AddInitialDocument) - добавляет идентификатор документа в коллекцию "родительских"    документов
 -   [AddSubordinateDocument](AddSubordinateDocument) - добавляет идентификатор документа в коллекцию подчиненных
     документов
--   [Send]() - отправляет документ на сервер
--   [SendAsync]() - инициирует асинхронную отправку документа
+-   [Send](Send (Document)) - отправляет документ на сервер
+-   [SendAsync](SendAsync) - инициирует асинхронную отправку документа
 -   [SaveContent]() - на основании содержания документа формирует файл документа и  сохраняет его на диск
 -   [ValidateContent](ValidateContent) - проверяет содержание документа на корректность заполнения
 -   [AddStructuredDataAttachment] (AddStructuredDataAttachment) - добавляет файл со структурированными данными в отправляемый документ
