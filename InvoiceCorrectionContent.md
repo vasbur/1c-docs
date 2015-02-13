@@ -19,7 +19,7 @@
  Buyer | объект [OrganizationInfo](OrganizationInfo), чтение | Обязательно для заполнения | Данные покупателя
  Signer | объект [Signer](Signer), чтение | Обязательно для заполнения | Данные подписанта документа
  Type | Строка, чтение | --- | Тип документа
- Items | [InvoiceCorrectionItem](InvoiceCorrectionItem), чтение | Обязательно для заполнения | Табличная часть корректировочного счет-фактуры
+ Items | [InvoiceCorrection Item](InvoiceCorrectionItem), чтение | Обязательно для заполнения | Табличная часть корректировочного счет-фактуры
  TotalsInc | Объект [InvoiceTotalsDiff](InvoiceTotalsDiff), чтение | --- | Итоговая сумма к увеличению
  TotalsDesc | Объект [InvoiceTotalsDiff](InvoiceTotalsDiff), чтение | --- | Итоговая сумма к уменьшению
  AdditionalInfo | Строка, чтение/запись | --- | Дополнительные сведения
