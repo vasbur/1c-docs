@@ -3,7 +3,7 @@
 соответствующим ИНН. Объект возврашается в качестве результата работы
 метода [GetCounteragentListByInnList](GetCounteragentListByInnList)
 
-Свойства
+###Свойства
 
 -   Inn (строка, чтение) - ИНН контрагента
 -   Counteragent (объект
