@@ -6,7 +6,7 @@ GetContent()
 
 ###Возвращаемое значение
 Объектная модель данных
-[InvoiceRevisionContent](InvoiceContent).
+[InvoiceContent](InvoiceContent).
 
 ###Описание
 Возвращает содержание исправленного счет-фактуры в виде объектной
