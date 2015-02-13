@@ -4,7 +4,7 @@
 
 ###Свойства
 
--   Certificate (объект [Certificate](Certificate), чтение) - сертификат, с помощью которого была создана подпись
+-   Certificate (объект [PersonalCertificate](PersonalCertificate), чтение) - сертификат, с помощью которого была создана подпись
 -   SignDate (дата, чтение) - дата подписи
 -   SignatureAuthenticityDate (дата, чтение) - дата проверки подлинности
     подписи
