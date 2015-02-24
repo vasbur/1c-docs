@@ -1,5 +1,5 @@
 ﻿
-Метод объекта [Organization](Organization).
+Метод объекта [Organization](Организация).
 
 ###Синтаксис
 SendDraftAsync(\<MessageId\>)
