@@ -2,7 +2,7 @@
 Метод объекта [Organization](Organization).
 
 ###Синтаксис
-SendDraftAsync(<MessageId>)
+SendDraftAsync(\<MessageId\>)
 
 ###Параметры
 -   \<MessageId\> (Строка, обязательный) Уникальный идентификатор черновика.
