@@ -1,4 +1,4 @@
-[AddIn Diadoc API](Home) - V 4.1.0.1
+[AddIn Diadoc API](Home) - V 4.1.0.2
 
 Все возникающие вопросы, связанные с интеграцией вашей системы с Диадоком, можно задавать [на форуме](http://forum.kontur-extern.ru/yaf_topics193_Voprosy-po-Diadok.aspx) либо в почту diadoc-api@skbkontur.ru.
 
