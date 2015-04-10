@@ -7,3 +7,4 @@
 ![GetVersionDll83](https://github.com/skbkontur/DiadocSDK-1C/blob/master/resources/GetVersionDll83.png)
 4. Версию dll можно посмотреть в свойствах самой dll.
 ![GetVersionDll](https://github.com/skbkontur/DiadocSDK-1C/raw/master/resources/GetVersionDll.png)
+5. Перезапустить 1С, и запустить модуль заново. После чего новая компонента будет зарегистрирована в системе.
