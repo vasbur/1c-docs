@@ -1,4 +1,4 @@
-Скачайте zip архив, содержащий файл компоненты - [AddInDiadocApi.zip](https://github.com/skbkontur/DiadocSDK-1C/blob/raw/v40/AddInDiadocApi.zip)
+Скачайте zip архив, содержащий файл компоненты - [AddInDiadocApi.zip](https://github.com/skbkontur/DiadocSDK-1C/raw/v40/AddInDiadocApi.zip)
 
 1. Открыть внешнюю обработку через конфигуратор, в списке макетов найти «ФайлКомпоненты_%ВашаВерсияКомпоненты%» Заменить в макете  двоичные данные новым архивом.
 ![LoadZip](https://github.com/skbkontur/DiadocSDK-1C/blob/master/resources/LoadZip.png)
