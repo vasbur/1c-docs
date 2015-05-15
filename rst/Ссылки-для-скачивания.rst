@@ -1,0 +1,43 @@
+Текущие версии внешней компоненты
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  `Внешняя компонента для
+   1С <https://github.com/skbkontur/DiadocSDK-1C/raw/master/v40/AddInDiadocAPI.dll>`__
+   - версия 4.2.0.7
+
+-  `COM-компонента для встраивания в произвольные
+   системы <https://github.com/skbkontur/DiadocSDK-1C/raw/master/v40/DiadocComApi.dll>`__
+   - версия 4.2.0.7
+
+-  `COM-компонента для встраивания в произвольные системы, для 64-х
+   битных
+   приложений <https://github.com/skbkontur/DiadocSDK-1C/raw/master/v40/x64/DiadocComApi.dll>`__
+   - версия 4.2.0.7
+
+Предыдущие редакции компоненты
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+v 3.0 (поддержка до 21.04.2016 года)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+-  `Внешняя компонента для
+   1С <https://github.com/skbkontur/DiadocSDK-1C/raw/master/v30/AddInDiadocAPI.dll>`__
+   - версия 3.13.0.47
+
+-  `COM-компонента для встраивания в произвольные
+   системы <https://github.com/skbkontur/DiadocSDK-1C/raw/master/v30/DiadocComApi.dll>`__
+   - версия 3.13.0.47
+
+v 2.3 (поддержка до 21.10.2015 года)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+-  `Внешняя компонента для
+   1С <https://github.com/skbkontur/DiadocSDK-1C/blob/master/v23/AddInDiadocAPI.dll>`__
+   - версия 2.3.09.08
+
+v 2.2 (поддержка до 21.10.2015 года)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+-  `Внешняя компонента для
+   1С <https://github.com/skbkontur/DiadocSDK-1C/blob/master/v22/AddInDiadocAPI.dll>`__
+   - версия 2.2.02.92

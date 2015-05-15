@@ -1,0 +1,8 @@
+Раздел содержит объекты, для работы с содержимым электронного документа
+
+-  `OrganizationInfo <OrganizationInfo>`__
+-  `ShipperOrConsigneeInfo <ShipperOrConsigneeInfo>`__
+-  `AddressInfo <AddressInfo>`__
+-  `Signer <Signer>`__
+-  `Official <Official>`__
+-  `Attorney <Attorney>`__
