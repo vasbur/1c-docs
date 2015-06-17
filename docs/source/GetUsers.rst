@@ -1,17 +1,20 @@
-Метод объекта `Organization <Организация>`__
+﻿GetUsers
+========
+
+Метод объекта :doc:`Organization <Организация>`
 
 Синтаксис
-~~~~~~~~~
+---------
 
 GetUsers()
 
 Возвращаемое значение
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
-| Коллекция `Collection <Collection>`__ объектов типа
-| `OrganizationUser <OrganizationUser>`__.
+Коллекция :doc:`Collection <Collection>` объектов типа
+:doc:`OrganizationUser <OrganizationUser>`.
 
 Описание
-~~~~~~~~
+--------
 
 Возвращает список всех пользователей организации.

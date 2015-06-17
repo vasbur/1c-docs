@@ -1,7 +1,10 @@
+﻿SendTask
+========
+
 Объект предназначен для отправки сообщения на сервер Диадок.
 
 Свойства
-~~~~~~~~
+--------
 
 -  Content (чтение/запись) - содержание документа
 -  CounterAgentId (строка, чтение/запись) - идентификатор контрагента
@@ -17,56 +20,53 @@
    получателя
 -  DelaySend (булево, чтение/запись) признак того, что сообщение будет
    сохранено без отправки
--  InitialDocuments (объект
-   `Collection <Collection>`__, чтение) - список идентификаторов
-   документов, на которые должен
-   ссылаться отправляемый документ
--  SubordinateDocuments (объект
-   `Collection <Collection>`__, чтение) - список идентификаторов
-   документов, которые должны
-   ссылаться на отправляемый
+-  InitialDocuments (объект :doc:`Collection <Collection>`, чтение) -
+   список идентификаторов документов, на которые должен ссылаться
+   отправляемый документ
+-  SubordinateDocuments (объект :doc:`Collection <Collection>`, чтение) -
+   список идентификаторов документов, которые должны ссылаться на
+   отправляемый
 -  IsInternal (булево, чтение/запись) - признак того, что сообщение
    является внутренним, то есть сообщением между подразделениями
    организации
 
-Свойство \\ имеет один из следующих типов
+Свойство <Content> имеет один из следующих типов
 
--  `InvoiceContent <InvoiceContent>`__ - счет-фактура/исправление
+-  :doc:`InvoiceContent <InvoiceContent>` - счет-фактура/исправление
    счет-фактуры
--  `InvoiceCorrectionContent <InvoiceCorrectionContent>`__ -
+-  :doc:`InvoiceCorrectionContent <InvoiceCorrectionContent>` -
    корректировочный счет-фактура/исправление корректировочного
    счет-фактуры
--  `Torg12SellerContent <Torg12SellerContent>`__ - товарная накладная
+-  :doc:`Torg12SellerContent <Torg12SellerContent>` - товарная накладная
    ТОРГ-12 титул продавца
--  `Torg12BuyerContent <Torg12BuyerContent>`__ - товарная накладная
+-  :doc:`Torg12BuyerContent <Torg12BuyerContent>` - товарная накладная
    ТОРГ-12 титул покупателя
--  `AcceptanceCertificateSellerContent <AcceptanceCertificateSellerContent>`__
+-  :doc:`AcceptanceCertificateSellerContent <AcceptanceCertificateSellerContent>`
    - акт о выполнении работ/оказании услуг, титул исполнителя
--  `AcceptanceCertificateBuyerContent <AcceptanceCertificateBuyerContent>`__
+-  :doc:`AcceptanceCertificateBuyerContent <AcceptanceCertificateBuyerContent>`
    - акт о выполнении работ/оказании услуг, титул заказчика
--  `NonformilizedDocumentContent <NonformilizedDocumentContent>`__ -
+-  :doc:`NonformilizedDocumentContent <NonformilizedDocumentContent>` -
    неформализованный документ/протокол согласования цены/реестр
    сертификатов/акт сверки/детализация
--  `Torg12Content <Torg12Content>`__ - товарная накладная ТОРГ-12 в
+-  :doc:`Torg12Content <Torg12Content>` - товарная накладная ТОРГ-12 в
    неформализованном виде
--  `AcceptanceCertificateContent <AcceptanceCertificateContent>`__ - акт
+-  :doc:`AcceptanceCertificateContent <AcceptanceCertificateContent>` - акт
    о выполнении работ в неформализованном виде
--  `ProformaInvoiceContent <ProformaInvoiceContent>`__ - счет на оплату
--  `ContractDocumentContent <ContractDocumentContent>`__ - договор
+-  :doc:`ProformaInvoiceContent <ProformaInvoiceContent>` - счет на оплату
+-  :doc:`ContractDocumentContent <ContractDocumentContent>` - договор
 
 Методы
-~~~~~~
+------
 
--  `AddInitialDocument <AddInitialDocument>`__ - добавляет идентификатор
+-  :doc:`AddInitialDocument <AddInitialDocument>` - добавляет идентификатор
    документа в коллекцию "родительских" документов
--  `AddSubordinateDocument <AddSubordinateDocument>`__ - добавляет
-   идентификатор документа в коллекцию подчиненных
-   документов
--  `Send <Send%20(Document)>`__ - отправляет документ на сервер
--  `SendAsync <SendAsync>`__ - инициирует асинхронную отправку документа
--  `SaveContent <SaveContent%20(SendTask)>`__ - на основании содержания
+-  :doc:`AddSubordinateDocument <AddSubordinateDocument>` - добавляет
+   идентификатор документа в коллекцию подчиненных документов
+-  :doc:`Send <Send-(Document)>` - отправляет документ на сервер
+-  :doc:`SendAsync <SendAsync>` - инициирует асинхронную отправку документа
+-  :doc:`SaveContent <SaveContent-(SendTask)>` - на основании содержания
    документа формирует файл документа и сохраняет его на диск
--  `ValidateContent <ValidateContent>`__ - проверяет содержание
+-  :doc:`ValidateContent <ValidateContent>` - проверяет содержание
    документа на корректность заполнения
 -  [AddStructuredDataAttachment] (AddStructuredDataAttachment) -
    добавляет файл со структурированными данными в отправляемый документ

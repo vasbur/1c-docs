@@ -1,9 +1,11 @@
-`AddIn Diadoc API <Home>`__ - V 4.2.0.7
+﻿\_Footer :doc:`AddIn Diadoc API <Home>` - V 4.2.0.7
+================================================
 
-Все возникающие вопросы, связанные с интеграцией вашей системы с
-Диадоком, можно задавать `на
-форуме <http://forum.kontur-extern.ru/yaf_topics193_Voprosy-po-Diadok.aspx>`__
-либо в почту diadoc-api@skbkontur.ru.
+Р’СЃРµ РІРѕР·РЅРёРєР°СЋС‰РёРµ РІРѕРїСЂРѕСЃС‹, СЃРІСЏР·Р°РЅРЅС‹Рµ СЃ
+РёРЅС‚РµРіСЂР°С†РёРµР№ РІР°С€РµР№ СЃРёСЃС‚РµРјС‹ СЃ Р”РёР°РґРѕРєРѕРј,
+РјРѕР¶РЅРѕ Р·Р°РґР°РІР°С‚СЊ `РЅР°
+:doc:С„РѕСЂСѓРјРµ <http://forum.kontur-extern.ru/yaf_topics193_Voprosy-po-Diadok.aspx>`
+Р»РёР±Рѕ РІ РїРѕС‡С‚Сѓ diadoc-api@skbkontur.ru.
 
 .. raw:: html
 
@@ -42,7 +44,11 @@
 
 .. raw:: html
 
-   <div><img src="//mc.yandex.ru/watch/28439941" style="position:absolute; left:-9999px;" alt="" /></div>
+   <div>
+
+.. raw:: html
+
+   </div>
 
 .. raw:: html
 

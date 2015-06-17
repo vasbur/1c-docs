@@ -1,20 +1,21 @@
-| Объект предназначен для отправки титула покупателя документов «ТОРГ-12
-  в
-| формате ФНС» и «акт о выполнении работ в формате ФНС».
+﻿ReplySendTask
+=============
+
+Объект предназначен для отправки титула покупателя документов «ТОРГ-12 в
+формате ФНС» и «акт о выполнении работ в формате ФНС».
 
 Свойства
-~~~~~~~~
+--------
 
 -  Content (объект
-   `AcceptanceCertificateBuyerContent <AcceptanceCertificateBuyerContent>`__,
-   либо
-   `Torg12BuyerContent <Torg12BuyerContent>`__, чтение) - титула
+   :doc:`AcceptanceCertificateBuyerContent <AcceptanceCertificateBuyerContent>`,
+   либо :doc:`Torg12BuyerContent <Torg12BuyerContent>`, чтение) - титула
    покупателя
 
 Методы
-~~~~~~
+------
 
--  `ValidateContent <ValidateContent%20(ReplySendTask)>`__ - проверить
+-  :doc:`ValidateContent <ValidateContent-(ReplySendTask)>` - проверить
    титул покупателя на корректность заполнения
--  `Send <Send%20(ReplySendTask)>`__ - отправить титул покупателя на
+-  :doc:`Send <Send-(ReplySendTask)>` - отправить титул покупателя на
    сервер Диадок

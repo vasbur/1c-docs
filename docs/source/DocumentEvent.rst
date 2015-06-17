@@ -1,7 +1,10 @@
+﻿DocumentEvent
+=============
+
 Объект предназначен для получения информации о событии
 
 Свойства
-~~~~~~~~
+--------
 
 -  CounteragentId (строка, чтение) - идентификатор контрагента
 -  EventId (строка, чтение) - идентификатор события
@@ -22,11 +25,11 @@
 -  Resolution - согласование документа
 
 Методы объекта
-~~~~~~~~~~~~~~
+--------------
 
--  `GetDocument <GetDocument>`__ - возвращает документ, связанный с
+-  :doc:`GetDocument <GetDocument>` - возвращает документ, связанный с
    событием
--  `GetFileContent <GetFileContent>`__ - сохраняет содержимое документа
+-  :doc:`GetFileContent <GetFileContent>` - сохраняет содержимое документа
    на диск
--  `GetSignatureContent <GetSignatureContent>`__ - сохраняет содержимое
+-  :doc:`GetSignatureContent <GetSignatureContent>` - сохраняет содержимое
    подписи документа на диск

@@ -1,16 +1,19 @@
-Метод объекта `Document <Документы>`__
+﻿CreateResolutionRequestTask
+===========================
+
+Метод объекта :doc:`Document <Документы>`
 
 Синтаксис
-~~~~~~~~~
+---------
 
 CreateResolutionRequestTask()
 
 Возвращаемое значение
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
-Объект `ResolutionRequestTask <ResolutionRequestTask>`__.
+Объект :doc:`ResolutionRequestTask <ResolutionRequestTask>`.
 
 Описание
-~~~~~~~~
+--------
 
 Создает задание для отправки запроса на согласование.

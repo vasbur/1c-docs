@@ -1,8 +1,11 @@
-| Объект предназначен для получения списка документов, отправленных из
-| выбранного ящика или пришедших в него.
+﻿DocumentsTask
+=============
+
+Объект предназначен для получения списка документов, отправленных из
+выбранного ящика или пришедших в него.
 
 Свойства объекта
-~~~~~~~~~~~~~~~~
+----------------
 
 +-------------------------+----------------+-----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Свойство                | Тип значения   | Доступ          | Описание                                                                                                                                                                                    |
@@ -29,25 +32,24 @@
 +-------------------------+----------------+-----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Методы объекта
-~~~~~~~~~~~~~~
+--------------
 
 +---------------------------------------------+----------------------------------------------------------------------------------------------------+
 | Метод                                       | Описание                                                                                           |
 +=============================================+====================================================================================================+
-| `GetDocuments <GetDocuments>`__             | Возвращает список документов в текущем ящике по заданному фильтру                                  |
+| :doc:`GetDocuments <GetDocuments>`             | Возвращает список документов в текущем ящике по заданному фильтру                                  |
 +---------------------------------------------+----------------------------------------------------------------------------------------------------+
-| `GetDocumentsAsync <GetDocumentsAsync>`__   | Инициирует асинхронную операцию получения списка документов в текущем ящике по заданному фильтру   |
+| :doc:`GetDocumentsAsync <GetDocumentsAsync>`   | Инициирует асинхронную операцию получения списка документов в текущем ящике по заданному фильтру   |
 +---------------------------------------------+----------------------------------------------------------------------------------------------------+
 
-| Использовать параметры FromSendDate/ToSendDate и
-| FromDocumentDate/ToDocumentDate одновременно нельзя. Фильтрация
-| производится либо по дате документа, либо по дате его передачи через
-| Диадок.
+Использовать параметры FromSendDate/ToSendDate и
+FromDocumentDate/ToDocumentDate одновременно нельзя. Фильтрация
+производится либо по дате документа, либо по дате его передачи через
+Диадок.
 
-| Обязательный параметр \\ задается строкой в формате
-| "ТИП\_ДОКУМЕНТА.ТИП\_ФИЛЬТРА". Первая часть строки задает тип
-  документа
-| и может принимать одно из следующих значений:
+Обязательный параметр <FilterCategory> задается строкой в формате
+"ТИП\_ДОКУМЕНТА.ТИП\_ФИЛЬТРА". Первая часть строки задает тип документа
+и может принимать одно из следующих значений:
 
 -  Any – любой документ
 -  Invoice – счет-фактура
@@ -69,191 +71,212 @@
 -  ProformaInvoice – счет на оплату
 -  ServiceDetails – детализация
 
-| ТИП\_ФИЛЬТРА указывает дополнительную информацию для отбора документов
-| указанного типа. Набор возможных значений фильтра зависит от типа
-| выбираемого документа.
+ТИП\_ФИЛЬТРА указывает дополнительную информацию для отбора документов
+указанного типа. Набор возможных значений фильтра зависит от типа
+выбираемого документа.
 
 Таблица возможных значений
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 .. raw:: html
 
    <table>
-       <title>Таблица возможных значений </title>
-         <thead>
-           <tr>
-             <td>Тип_Документа</td>
-             <td>Тип_Фильтра, описание</td>
-           
-           </tr>
-         </thead>
-         <tbody>
-           <tr>
-             <td colspan=2 align="center">
-               <b>Отбор по статусу подписания документа</b>
-             </td>
-           </tr>
-           <tr>
-             <td rowspan=4>Все типы документов</td>
-             <td>Inbound  
-   <br>Все входящие документы </td>
-            
-           </tr>
-           <tr>
-             <td>Outbound
-   <br>Все исходящие документы</td>
-           </tr>
-           <tr>
-             <td>OutboundWaitingForSenderSignature<br>Исходящие документы, требующие подписания и отправки</td>
-           </tr>
-           <tr>
-             <td>OutboundInvalidSenderSignature<br>Исходящие документы с невалидной подписью отправителя, требующие повторного подписания и отправки</td>
-           </tr>
 
-           <tr>
-             <td rowspan=4>
-                   <ul>
-                       <li>Invoice</li>
-                       <li>InvoiceRevision</li>
-                       <li>InvoiceCorrection</li>
-                       <li>InvoiceCorrectionRevision</li>
-                       <li>AnyInvoiceDocumentType</li>
-                   </ul>
-             </td>
-             <td>OutboundNotFinished<br>Исходящий, документооборот не завершен</td>
-       
-           </tr>
-           <tr>
-             <td>OutboundFinished<br>Исходящий, документооборот завершен</td>
-           </tr>
-           <tr>
-             <td>InboundNotFinished<br>Входящий, документооборот не завершен</td>
-           </tr>
-           <tr>
-             <td>InboundFinished<br>Входящий, документооборот завершен</td>
-           </tr>
+::
+
+    <title>Таблица возможных значений </title>
+      <thead>
+        <tr>
+          <td>Тип_Документа</td>
+          <td>Тип_Фильтра, описание</td>
+        
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan=2 align="center">
+            <b>Отбор по статусу подписания документа</b>
+          </td>
+        </tr>
+        <tr>
+          <td rowspan=4>Все типы документов</td>
+          <td>Inbound  
+
+Все входящие документы
+
+.. raw:: html
+
+   </td>
+
+::
+
+        </tr>
+        <tr>
+          <td>Outbound
+
+Все исходящие документы
+
+.. raw:: html
+
+   </td>
+
+::
+
+        </tr>
+        <tr>
+          <td>OutboundWaitingForSenderSignature<br>Исходящие документы, требующие подписания и отправки</td>
+        </tr>
+        <tr>
+          <td>OutboundInvalidSenderSignature<br>Исходящие документы с невалидной подписью отправителя, требующие повторного подписания и отправки</td>
+        </tr>
+
+        <tr>
+          <td rowspan=4>
+                <ul>
+                    <li>Invoice</li>
+                    <li>InvoiceRevision</li>
+                    <li>InvoiceCorrection</li>
+                    <li>InvoiceCorrectionRevision</li>
+                    <li>AnyInvoiceDocumentType</li>
+                </ul>
+          </td>
+          <td>OutboundNotFinished<br>Исходящий, документооборот не завершен</td>
+
+        </tr>
+        <tr>
+          <td>OutboundFinished<br>Исходящий, документооборот завершен</td>
+        </tr>
+        <tr>
+          <td>InboundNotFinished<br>Входящий, документооборот не завершен</td>
+        </tr>
+        <tr>
+          <td>InboundFinished<br>Входящий, документооборот завершен</td>
+        </tr>
 
 
-           <tr>
-             <td rowspan=6>
-                   <ul>
-                       <li>Torg12</li>
-                       <li>XmlTorg12</li>
-                       <li>AcceptanceCertificate</li>
-                       <li>XmlAcceptanceCertificate</li>
-                       <li>Nonformalized</li>
-                       <li>TrustConnectionRequest</li>
-                       <li>PriceListAgreement</li>
-                       <li>CertificateRegistry</li>
-                       <li>ReconciliationAct</li>
-                       <li>Contract</li>
-                   </ul>
-             </td>
-             <td>OutboundWaitingForRecipientSignature <br>Исходящий документ в ожидании ответной подписи</td>
-       
-           </tr>
-           <tr>
-             <td>OutboundWithRecipientSignature <br>Исходящий документ с ответной подписью</td>
-           </tr>
-           <tr>
-             <td>OutboundRecipientSignatureRequestRejected<br>Исходящий документ с отказом в ответной подписи</td>
-           </tr>
-           <tr>
-             <td>InboundWaitingForRecipientSignature <br>Входящий документ в ожидании ответной подписин</td>
-           </tr>
-           <tr>
-             <td>InboundWithRecipientSignature <br>Входящий документ с ответной подписью</td>
-           </tr>
-           <tr>
-             <td>InboundRecipientSignatureRequestRejected  <br>Входящий документ с отказом в ответной подписи</td>
-           </tr>
+        <tr>
+          <td rowspan=6>
+                <ul>
+                    <li>Torg12</li>
+                    <li>XmlTorg12</li>
+                    <li>AcceptanceCertificate</li>
+                    <li>XmlAcceptanceCertificate</li>
+                    <li>Nonformalized</li>
+                    <li>TrustConnectionRequest</li>
+                    <li>PriceListAgreement</li>
+                    <li>CertificateRegistry</li>
+                    <li>ReconciliationAct</li>
+                    <li>Contract</li>
+                </ul>
+          </td>
+          <td>OutboundWaitingForRecipientSignature <br>Исходящий документ в ожидании ответной подписи</td>
 
-           <tr>
-             <td rowspan=2>
-                   <ul>
-                       <li>Nonformalized</li>
-                       <li>PriceListAgreement</li>
-                       <li>CertificateRegistry</li>
-                   </ul>
-             </td>
-             <td>OutboundNoRecipientSignatureRequest <br>Исходящий документ без запроса ответной подписи</td>
-           </tr>
-             <tr>
-               <td>InboundNoRecipientSignatureRequest  <br>Вхдящий документ без запроса ответной подписи</td>
-             </tr>
-              <tr>
-               <td colspan="3" align="center">
-                   <b>Отбор по статусу согласования документа</b>
-             </td>
-             </tr>
-           <tr>
-             <td rowspan=6>
-              Все типы документов
+        </tr>
+        <tr>
+          <td>OutboundWithRecipientSignature <br>Исходящий документ с ответной подписью</td>
+        </tr>
+        <tr>
+          <td>OutboundRecipientSignatureRequestRejected<br>Исходящий документ с отказом в ответной подписи</td>
+        </tr>
+        <tr>
+          <td>InboundWaitingForRecipientSignature <br>Входящий документ в ожидании ответной подписин</td>
+        </tr>
+        <tr>
+          <td>InboundWithRecipientSignature <br>Входящий документ с ответной подписью</td>
+        </tr>
+        <tr>
+          <td>InboundRecipientSignatureRequestRejected  <br>Входящий документ с отказом в ответной подписи</td>
+        </tr>
 
-             </td>
-             <td>OutboundWaitingForResolution   <br>Исходящий документ, переданный на согласование или подписание</td>
-           </tr>
+        <tr>
+          <td rowspan=2>
+                <ul>
+                    <li>Nonformalized</li>
+                    <li>PriceListAgreement</li>
+                    <li>CertificateRegistry</li>
+                </ul>
+          </td>
+          <td>OutboundNoRecipientSignatureRequest <br>Исходящий документ без запроса ответной подписи</td>
+        </tr>
+          <tr>
+            <td>InboundNoRecipientSignatureRequest  <br>Вхдящий документ без запроса ответной подписи</td>
+          </tr>
            <tr>
-             <td>OutboundApproved<br>Согласованный исходящий документ</td>
-           </tr>
-           <tr>
-             <td>OutboundDisapproved<br>Исходящий документ с отказом в согласовании</td>
-           </tr>
-           <tr>
-             <td>InboundWaitingForResolution  <br>Входящий документ, переданный на согласование или подписание</td>
-           </tr>
-           <tr>
-             <td>InboundApproved<br>Согласованный входящий документ</td>
-           </tr>
-           <tr>
-             <td>InboundDisapproved<br>Входящий документ с отказом в согласовании</td>
-           </tr>
+            <td colspan="3" align="center">
+                <b>Отбор по статусу согласования документа</b>
+          </td>
+          </tr>
+        <tr>
+          <td rowspan=6>
+           Все типы документов
 
-           <tr>
-             <td colspan="3" align="center">
-                 <b>Отбор по статусу аннулирования документа</b>
-             </td>
-           </tr>
-           
-           <tr>
-             <td rowspan="8" >
-               Все типы документов
-             </td>
-             <td>OutboundRevocationIsRequestedByMe<br>Исходящий документ, по которому запрошено аннулирование у другой стороны</td>
-           </tr>
-           <tr>
-             <td>OutboundRequestsMyRevocation<br>Исходящий документ, по которому другой стороной запрошено аннулирование</td>
-           </tr>
+          </td>
+          <td>OutboundWaitingForResolution   <br>Исходящий документ, переданный на согласование или подписание</td>
+        </tr>
+        <tr>
+          <td>OutboundApproved<br>Согласованный исходящий документ</td>
+        </tr>
+        <tr>
+          <td>OutboundDisapproved<br>Исходящий документ с отказом в согласовании</td>
+        </tr>
+        <tr>
+          <td>InboundWaitingForResolution  <br>Входящий документ, переданный на согласование или подписание</td>
+        </tr>
+        <tr>
+          <td>InboundApproved<br>Согласованный входящий документ</td>
+        </tr>
+        <tr>
+          <td>InboundDisapproved<br>Входящий документ с отказом в согласовании</td>
+        </tr>
 
-           <tr>
-             <td>OutboundRevocationAccepted<br>Исходящий аннулированный документ</td>
-           </tr>
-           <tr>
-             <td>OutboundRevocationRejected<br>Исходящий документ, по которому получен отказ на запрос об аннулировании</td>
-           </tr>
-       
-           <tr>
-             <td>InboundRevocationIsRequestedByMe<br>Входящий документ, по которому запрошено аннулирование у другой стороны</td>
-           </tr>
-           <tr>
-             <td>InboundRequestsMyRevocation<br>Входящий документ, по которому другой стороной запрошено аннулирование</td>
-           </tr>
+        <tr>
+          <td colspan="3" align="center">
+              <b>Отбор по статусу аннулирования документа</b>
+          </td>
+        </tr>
+        
+        <tr>
+          <td rowspan="8" >
+            Все типы документов
+          </td>
+          <td>OutboundRevocationIsRequestedByMe<br>Исходящий документ, по которому запрошено аннулирование у другой стороны</td>
+        </tr>
+        <tr>
+          <td>OutboundRequestsMyRevocation<br>Исходящий документ, по которому другой стороной запрошено аннулирование</td>
+        </tr>
 
-           <tr>
-             <td>InboundRevocationAccepted<br>Входящий аннулированный документ</td>
-           </tr>
-           <tr>
-             <td>InboundRevocationRejected<br>Входящий документ, по которому получен отказ на запрос об аннулировании</td>
-           </tr>
-         </tbody>
-       </tgroup>
-     </table>
+        <tr>
+          <td>OutboundRevocationAccepted<br>Исходящий аннулированный документ</td>
+        </tr>
+        <tr>
+          <td>OutboundRevocationRejected<br>Исходящий документ, по которому получен отказ на запрос об аннулировании</td>
+        </tr>
+
+        <tr>
+          <td>InboundRevocationIsRequestedByMe<br>Входящий документ, по которому запрошено аннулирование у другой стороны</td>
+        </tr>
+        <tr>
+          <td>InboundRequestsMyRevocation<br>Входящий документ, по которому другой стороной запрошено аннулирование</td>
+        </tr>
+
+        <tr>
+          <td>InboundRevocationAccepted<br>Входящий аннулированный документ</td>
+        </tr>
+        <tr>
+          <td>InboundRevocationRejected<br>Входящий документ, по которому получен отказ на запрос об аннулировании</td>
+        </tr>
+      </tbody>
+    </tgroup>
+
+.. raw:: html
+
+   </table>
 
 Пример использования
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
-| Следующая процедура позволяет получить список всех входящих
-| формализованных торг-12, которые требуется подписать:
+Следующая процедура позволяет получить список всех входящих
+формализованных торг-12, которые требуется подписать:
 
 ::
 

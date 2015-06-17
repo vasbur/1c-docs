@@ -1,8 +1,9 @@
-Раздел содержит объекты, для работы с содержимым электронного документа
+﻿Общие структуры содержимого документов
+======================================
 
--  `OrganizationInfo <OrganizationInfo>`__
--  `ShipperOrConsigneeInfo <ShipperOrConsigneeInfo>`__
--  `AddressInfo <AddressInfo>`__
--  `Signer <Signer>`__
--  `Official <Official>`__
--  `Attorney <Attorney>`__
+Р Р°Р·РґРµР» СЃРѕРґРµСЂР¶РёС‚ РѕР±СЉРµРєС‚С‹, РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ
+СЃРѕРґРµСЂР¶РёРјС‹Рј СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° -
+:doc:`OrganizationInfo <OrganizationInfo>` -
+:doc:`ShipperOrConsigneeInfo <ShipperOrConsigneeInfo>` -
+:doc:`AddressInfo <AddressInfo>` - :doc:`Signer <Signer>` -
+:doc:`Official <Official>` - :doc:`Attorney <Attorney>`
