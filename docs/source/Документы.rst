@@ -92,7 +92,6 @@
 Методы объекта
 --------------
 
-
 -  :doc:`SaveAllContent <SaveAllContent>` - сохраняет все файлы, относящиеся к документу, на локальный диск
 
 -  :doc:`GetComment <GetComment>` - возвращает комментарий к документу, заданный при отправке
@@ -101,7 +100,7 @@
 
 -  :doc:`Delete <Delete>` - помечает документ как удаленный
 
--  :doc:`SaveSenderContent <1S_SaveSenderContent>` - сохраняет содержимое документа на локальный диск
+-  :doc:`SaveContent <SaveContent>` - сохраняет содержимое документа на локальный диск
 
 -  :doc:`Approve <Approve>` - ставит признак согласования документа
 
@@ -127,8 +126,51 @@
 
 -  :doc:`GetPrintForm <GetPrintForm>` - получает печатную форму документа в формате pdf
 
+.. toctree::
+   :name: Auto
+   :hidden:
 
-Производные объекты Следующие объекты являются производными от Document:
+   SaveAllContent <SaveAllContent>
+   GetComment <GetComment>
+   Move <Move>
+   Delete <Delete>
+   1S_SaveSenderContent <1S_SaveSenderContent>
+   Approve <Approve>
+   Disapprove <Disapprove>
+   SetOneSDocumentId <SetOneSDocumentId>
+   ReSetOneSDocumentId <ReSetOneSDocumentId>
+   CreateResolutionRequestTask <CreateResolutionRequestTask>
+   GetSenderSignature <GetSenderSignature>
+   GetRecipientSignature <GetRecipientSignature>
+   GetStructuredDataAttachment <GetStructuredDataAttachment>
+   SendRevocationRequest <SendRevocationRequest>
+   AcceptRevocationRequest <AcceptRevocationRequest>
+   RejectRevocationRequest <RejectRevocationRequest>
+   GetPrintForm <GetPrintForm>
+
+Производные объекты 
+------------------------------------
+
+
+Следующие объекты являются производными от Document:
+
+.. toctree::
+   :name: DocumentsChild
+   :maxdepth: 1
+   :caption: Производные объекты
+   :hidden:
+
+   Invoice <Invoice> 
+   InvoiceRevision <InvoiceRevision>  
+   InvoiceCorrection <InvoiceCorrection>
+   InvoiceCorrectionRevision <InvoiceCorrectionRevision>
+   XmlTorg12 <XmlTorg12>
+   XmlAcceptanceCertificate <XmlAcceptanceCertificate>
+   NonformalizedTorg12 <NonformalizedTorg12>
+   NonformalizedAcceptanceCertificate <NonformalizedAcceptanceCertificate>
+   NonformalizedProformaInvoice <NonformalizedProformaInvoice>
+   Contract <Contract>
+   Nonformalized <Nonformalized>
 
 -  :doc:`Invoice <Invoice>` - счет-фактура
 -  :doc:`InvoiceRevision <InvoiceRevision>` - исправление счета-фактуры
@@ -141,10 +183,21 @@
    выполнении работ в формализованном виде
 -  :doc:`NonformalizedTorg12 <NonformalizedTorg12>` - ТОРГ-12 в
    неформализованном виде
--  [NonformalizedAcceptanceCertificate]
-   (NonformalizedAcceptanceCertificate) - акт о выполнении работ в
+-  :doc:`NonformalizedAcceptanceCertificate <NonformalizedAcceptanceCertificate>` - акт о выполнении работ в
    неформализованном виде
 -  :doc:`NonformalizedProformaInvoice <NonformalizedProformaInvoice>` -
    счет на оплату
 -  :doc:`Contract <Contract>` - договор
 -  :doc:`Nonformalized <Nonformalized>` - неформализованный документ
+
+Структуры для работы с содержимым документов
+---------------------------------------------
+
+Для работы с содержимым формализованных документов можно использовать специальные объекты, которые представляют данные xml-файла в виде объектной модели.
+
+В компоненте реализованы следующие объекты:
+
+- :doc:`InvoiceContent <InvoiceContent>` - для работы с документами :doc:`счет-фактура <Invoice>`, :doc:`исправление счета-фактуры <InvoiceRevision>`
+- :doc:`InvoiceCorrectionContent <InvoiceCorrectionContent>` - для работы с документами :doc:`корректировочный счет-фактура <InvoiceCorrection>`, :doc:`исправление корректировочного счета-фактуры <InvoiceCorrectionRevision>`
+  
+

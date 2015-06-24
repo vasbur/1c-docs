@@ -1,4 +1,4 @@
-﻿SaveContent (Document)
+﻿SaveContent
 ======================
 
 Метод объекта :doc:`Document <Документы>`.
