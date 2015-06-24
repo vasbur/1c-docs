@@ -80,3 +80,24 @@
 
 -  :doc:`SendDraftAsync <SendDraftAsync>` - инициирует асинхронную операцию отправки черновика по его уникальному идентификатору
 
+
+.. toctree::
+   :name: Auto
+   :hidden:
+
+   GetCounteragentListByStatus <GetCounteragentListByStatus>
+   GetCounteragentListByStatusAsync <GetCounteragentListByStatusAsync>
+   GetCounteragentById <GetCounteragentById>
+   GetCounteragentListByInnKpp <GetCounteragentListByInnKpp>
+   GetCounteragentListByInnList <GetCounteragentListByInnList>
+   GetDocumentById <GetDocumentById>
+   GetDocumentsTask <GetDocumentsTask>
+   CreateSendTask <CreateSendTask>
+   CreateSendTaskFromFile <CreateSendTaskFromFile>
+   GetUsers <GetUsers>
+   GetUserPermissions <GetUserPermissions>
+   GetDocumentEventList <GetDocumentEventList>
+   GetReceiptGenerationProcess <GetReceiptGenerationProcess>
+   AddCertToFnsRegistrationMessage <AddCertToFnsRegistrationMessage>
+   SendDraftAsync <SendDraftAsync>
+

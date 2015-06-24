@@ -54,3 +54,12 @@ InternalInvalidRecipientSignature - документ внутренний, до�
 
 -  :doc:`Reject <Reject-(Contract)>` - формирует отказ в подписании документа
 
+
+.. toctree::
+   :name: Auto
+   :hidden:
+
+   GetRejectionComment-(Contract) <GetRejectionComment-(Contract)>
+   Accept-(Contract) <Accept-(Contract)>
+   Reject-(Contract) <Reject-(Contract)>
+

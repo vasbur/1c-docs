@@ -37,3 +37,10 @@
 
 -  :doc:`AddItem <AddItem-(AcceptanceCertificateSellerContent)>` - добавляет строку в табличную часть Акта
 
+
+.. toctree::
+   :name: Auto
+   :hidden:
+
+   AddItem-(AcceptanceCertificateSellerContent) <AddItem-(AcceptanceCertificateSellerContent)>
+

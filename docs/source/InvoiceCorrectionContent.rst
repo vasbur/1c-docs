@@ -52,3 +52,10 @@
 
 -  :doc:`AddItem <AddItem-(InvoiceCorrectionContent)>` - добавляет строку в табличную часть корректировочного счет-фактуры
 
+
+.. toctree::
+   :name: Auto
+   :hidden:
+
+   AddItem-(InvoiceCorrectionContent) <AddItem-(InvoiceCorrectionContent)>
+

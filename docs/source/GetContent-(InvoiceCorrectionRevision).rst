@@ -3,18 +3,18 @@
 
 Метод объекта :doc:`InvoiceCorrectionRevision <InvoiceCorrectionRevision>`.
 
-Синтаксис
----------
+**Синтаксис**
+
 
 GetContent()
 
-Возвращаемое значение
----------------------
+**Возвращаемое значение**
+
 
 Объект :doc:`InvoiceCorrectionContent <InvoiceCorrectionContent>`.
 
-Описание
---------
+**Описание**
+
 
 Возвращает содержание корректировочного счет-фактуры в виде объектной
 модели.

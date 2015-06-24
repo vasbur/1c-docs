@@ -71,6 +71,14 @@ FromDocumentDate/ToDocumentDate одновременно нельзя. Филь�
 указанного типа. Набор возможных значений фильтра зависит от типа
 выбираемого документа.
 
+
+.. toctree::
+   :name: Auto
+   :hidden:
+
+   GetDocuments <GetDocuments>
+   GetDocumentsAsync <GetDocumentsAsync>
+
 Таблица возможных значений
 --------------------------
 
@@ -268,6 +276,14 @@ FromDocumentDate/ToDocumentDate одновременно нельзя. Филь�
 
    </table>
 
+
+.. toctree::
+   :name: Auto
+   :hidden:
+
+   GetDocuments <GetDocuments>
+   GetDocumentsAsync <GetDocumentsAsync>
+
 Пример использования
 --------------------
 
@@ -290,3 +306,11 @@ FromDocumentDate/ToDocumentDate одновременно нельзя. Филь�
                 ц = ц +1;
             КонецЦикла;
         КонецПроцедуры
+
+.. toctree::
+   :name: Auto
+   :hidden:
+
+   GetDocuments <GetDocuments>
+   GetDocumentsAsync <GetDocumentsAsync>
+

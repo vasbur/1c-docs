@@ -67,3 +67,11 @@
 
 -  :doc:`SaveExternalCodes <SaveExternalCodes>` - сохраняет на сервере Диадока список внешних идентификаторов товаров накладной
 
+
+.. toctree::
+   :name: Auto
+   :hidden:
+
+   AddItem-(Torg12SellerContent) <AddItem-(Torg12SellerContent)>
+   SaveExternalCodes <SaveExternalCodes>
+

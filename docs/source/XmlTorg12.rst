@@ -62,3 +62,14 @@ InternalInvalidRecipientSignature - документ внутренний, до�
 
 -  :doc:`SaveRecipientContent <SaveRecipientContent-(XmlTorg12)>` - сохраняет содержимое титула получателя на локальный диск
 
+
+.. toctree::
+   :name: Autofdsfdsfds
+   
+   GetRejectionComment-(XmlTorg12) <GetRejectionComment-(XmlTorg12)>
+   Reject-(XmlTorg12) <Reject-(XmlTorg12)>
+   GetContent-(XmlTorg12) <GetContent-(XmlTorg12)>
+   GetBuyerContent-(XmlTorg12) <GetBuyerContent-(XmlTorg12)>
+   CreateReplySendTask-(XmlTorg12) <CreateReplySendTask-(XmlTorg12)>
+   SaveRecipientContent-(XmlTorg12) <SaveRecipientContent-(XmlTorg12)>
+

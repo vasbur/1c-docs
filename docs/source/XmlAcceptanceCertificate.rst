@@ -62,3 +62,15 @@ InternalInvalidRecipientSignature - документ внутренний, до�
 
 -  :doc:`SaveRecipientContent <SaveRecipientContent-(XmlAcceptanceCertificate)>` - сохраняет содержимое титула покупателя на локальный диск
 
+
+.. toctree::
+   :name: Auto
+   :hidden:
+
+   GetRejectionComment-(XmlAcceptanceCertificate) <GetRejectionComment-(XmlAcceptanceCertificate)>
+   Reject-(XmlAcceptanceCertificate) <Reject-(XmlAcceptanceCertificate)>
+   GetContent-(XmlAcceptanceCertificate) <GetContent-(XmlAcceptanceCertificate)>
+   GetBuyerContent-(XmlAcceptanceCertificate) <GetBuyerContent-(XmlAcceptanceCertificate)>
+   CreateReplySendTask-(XmlAcceptanceCertificate) <CreateReplySendTask-(XmlAcceptanceCertificate)>
+   SaveRecipientContent-(XmlAcceptanceCertificate) <SaveRecipientContent-(XmlAcceptanceCertificate)>
+

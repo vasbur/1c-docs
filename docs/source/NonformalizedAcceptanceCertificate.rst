@@ -56,3 +56,12 @@ InternalInvalidRecipientSignature - документ внутренний, до�
 
 -  :doc:`Reject <Reject-(NonformalizedAcceptanceCertificate)>` - формирует отказ в подписании документа
 
+
+.. toctree::
+   :name: Auto
+   :hidden:
+
+   GetRejectionComment-(NonformalizedAcceptanceCertificate) <GetRejectionComment-(NonformalizedAcceptanceCertificate)>
+   Accept-(NonformalizedAcceptanceCertificate) <Accept-(NonformalizedAcceptanceCertificate)>
+   Reject-(NonformalizedAcceptanceCertificate) <Reject-(NonformalizedAcceptanceCertificate)>
+

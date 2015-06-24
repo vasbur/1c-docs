@@ -49,3 +49,13 @@ InboundFinished - документ входящий, документообор�
 
 -  :doc:`SendReceiptsAsync <SendReceiptsAsync>` - формирует и подписывает документы по регламентному документообороту счетов-фактур
 
+
+.. toctree::
+   :name: Auto
+   :hidden:
+
+   GetContent-(Invoice) <GetContent-(Invoice)>
+   GetAmendmentRequestedComment-(Invoice) <GetAmendmentRequestedComment-(Invoice)>
+   SendCorrectionRequest-(Invoice) <SendCorrectionRequest-(Invoice)>
+   SendReceiptsAsync <SendReceiptsAsync>
+

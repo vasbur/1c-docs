@@ -3,19 +3,19 @@
 
 Метод объекта :doc:`XmlAcceptanceCertificate <XmlAcceptanceCertificate>`.
 
-Синтаксис
----------
+**Синтаксис**
+
 
 GetBuyerContent()
 
-Возвращаемое значение
----------------------
+**Возвращаемое значение**
+
 
 Объект
 :doc:`AcceptanceCertificateBuyerContent <AcceptanceCertificateBuyerContent>`.
 
-Описание
---------
+**Описание**
+
 
 Возвращает содержание документа в виде объектной модели (титул
 заказчика).

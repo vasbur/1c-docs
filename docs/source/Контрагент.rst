@@ -49,3 +49,12 @@
 
 -  :doc:`BreakWithCounteragent <BreakWithCounteragent>` - разрывает действующее «приглашение» об обмене документами
 
+
+.. toctree::
+   :name: Auto
+   :hidden:
+
+   GetStatus <GetStatus>
+   AcquireCounteragent <AcquireCounteragent>
+   BreakWithCounteragent <BreakWithCounteragent>
+

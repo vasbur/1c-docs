@@ -37,3 +37,11 @@
 :doc:`CreateConnectionByCertificate <CreateConnectionByCertificate>`
 (авторизация по сертификату с указанным отпечатком) `объекта интерфейса
 :doc:«Диадок» <Объект-интерфейса-Диадок>`.
+
+.. toctree::
+   :name: Auto
+   :hidden:
+
+   GetOrganizationList <GetOrganizationList>
+   GetOrganizationById <GetOrganizationById>
+
