@@ -1,4 +1,4 @@
-﻿GetRejectionComment (Nonformalized)
+﻿GetRejectionComment 
 ===================================
 
 Метод объекта :doc:`Nonformalized <Nonformalized>`.

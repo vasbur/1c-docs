@@ -1,4 +1,4 @@
-﻿Reject (XmlTorg12)
+﻿Reject
 ==================
 
 Метод объекта :doc:`XmlTorg12 <XmlTorg12>`.

@@ -1,4 +1,4 @@
-﻿GetRejectionComment (XmlTorg12)
+﻿GetRejectionComment
 ===============================
 
 Метод объекта :doc:`XmlTorg12 <XmlTorg12>`.

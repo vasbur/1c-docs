@@ -1,4 +1,4 @@
-﻿ValidateContent (SendTask)
+﻿ValidateContent 
 ==========================
 
 Метод объекта :doc:`SendTask <SendTask>`

@@ -1,8 +1,7 @@
 ﻿Документы
 =========
 
-Объект Document является базовым объектом для всех типов документов. Для
-него применимы :doc:`базовые методы <Базовые-методы>`, которые так же
+Объект Document является базовым объектом для всех типов документов. Он обладает базовым набором свойств и методов, которые также
 работают для всех производных типов документов. Объекты всех производных
 типов предназначены для:
 
@@ -69,13 +68,13 @@
 - **HasCustomPrintForm** (булево, чтение ) - признак того, что данный документ имеет нестандартную печатную форму
 
 
-Свойство Direction принимает одно из следующих значений:
+Свойство **Direction** принимает одно из следующих значений:
 
 -  "Inbound" - входящий документ
 -  "Outbound" - исходящий документ
 -  "Internal" - внутренний документ
 
-Свойство RevocationStatus принимает одно из следующих значений:
+Свойство **RevocationStatus** принимает одно из следующих значений:
 
 -  "RevocationStatusNone" - документ не аннулирован, и не было
    предложений об аннулировании
@@ -195,9 +194,54 @@
 
 Для работы с содержимым формализованных документов можно использовать специальные объекты, которые представляют данные xml-файла в виде объектной модели.
 
+Объектные модели документов
+""""""""""""""""""""""""""
+
 В компоненте реализованы следующие объекты:
 
 - :doc:`InvoiceContent <InvoiceContent>` - для работы с документами :doc:`счет-фактура <Invoice>`, :doc:`исправление счета-фактуры <InvoiceRevision>`
 - :doc:`InvoiceCorrectionContent <InvoiceCorrectionContent>` - для работы с документами :doc:`корректировочный счет-фактура <InvoiceCorrection>`, :doc:`исправление корректировочного счета-фактуры <InvoiceCorrectionRevision>`
-  
+- :doc:`Torg12SellerContent <Torg12SellerContent>`, :doc:`Torg12BuyerContent <Torg12BuyerContent>` - для работы с формализованной :doc:`Торг-12 <XmlTorg12>`
+- :doc:`AcceptanceCertificateSellerContent <AcceptanceCertificateSellerContent>`, :doc:`AcceptanceCertificateBuyerContent <AcceptanceCertificateBuyerContent>` - для работы с формализованным :doc:`актом выполненных работ <XmlAcceptanceCertificate>`
+- :doc:`ProformaInvoiceContent <ProformaInvoiceContent>` - для работы с :doc:`счетом на оплату <NonformalizedProformaInvoice>`
+- :doc:`NonformilizedContent <NonformilizedContent>` - для работы с :doc:`счетом на оплату <Nonformalized>`
+- :doc:`ContractContent <ContractContent>` - для работы с документом :doc:`договор <Contract>`
 
+.. toctree::
+   :name: Auto
+   :hidden:
+
+   InvoiceContent <InvoiceContent>
+   InvoiceCorrectionContent <InvoiceCorrectionContent>
+   Torg12SellerContent <Torg12SellerContent>
+   Torg12BuyerContent <Torg12BuyerContent>
+   AcceptanceCertificateSellerContent <AcceptanceCertificateSellerContent>
+   AcceptanceCertificateBuyerContent <AcceptanceCertificateBuyerContent>
+   ProformaInvoiceContent <ProformaInvoiceContent> 
+   NonformilizedContent <NonformilizedContent>
+   ContractContent <ContractContent>
+
+Вспомогательные объекты
+""""""""""""""""""""""""""""""
+
+Для работы с содержимым также используются следующие вспомогательные объекты:
+
+- :doc:`OrganizationInfo <OrganizationInfo>` - для работы данными об организации
+- :doc:`ShipperOrConsigneeInfo <ShipperOrConsigneeInfo>` - для работы данными об грузоотправителе и грузополучателе
+- :doc:`AddressInfo <AddressInfo>` - для работы данными об адресе
+- :doc:`Signer <Signer>` - для работы данными о лице, подписавшем документ
+- :doc:`Official <Official>` - для работы данными о должностном лице
+- :doc:`Attorney <Attorney>` - для работы данными о доверенности
+
+
+
+
+.. toctree::
+   :name: Auto
+   :hidden:
+
+   OrganizationInfo <OrganizationInfo>
+   ShipperOrConsigneeInfo <ShipperOrConsigneeInfo>
+   AddressInfo <AddressInfo>
+   Signer <Signer>
+   Attorney <Attorney>

@@ -1,4 +1,4 @@
-﻿Content (InvoiceCorrection)
+﻿Content 
 ===========================
 
 Объектная модель данных :doc:`Invoice <Invoice>`.

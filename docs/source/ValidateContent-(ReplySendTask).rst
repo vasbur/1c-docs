@@ -1,4 +1,4 @@
-﻿ValidateContent (ReplySendTask)
+﻿ValidateContent 
 ===============================
 
 Метод объекта :doc:`ReplySendTask <ReplySendTask>`

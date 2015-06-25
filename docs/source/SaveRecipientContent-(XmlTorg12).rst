@@ -1,4 +1,4 @@
-﻿SaveRecipientContent (XmlTorg12)
+﻿SaveRecipientContent 
 ================================
 
 Метод объекта :doc:`XmlTorg12 <XmlTorg12>`.

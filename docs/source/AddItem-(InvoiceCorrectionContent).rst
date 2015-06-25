@@ -1,4 +1,4 @@
-﻿AddItem (InvoiceCorrectionContent)
+﻿AddItem 
 ==================================
 
 Метод объекта :doc:`InvoiceCorrectionContent <InvoiceCorrectionContent>`

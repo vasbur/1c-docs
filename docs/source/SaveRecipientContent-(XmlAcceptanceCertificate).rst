@@ -1,4 +1,4 @@
-﻿SaveRecipientContent (XmlAcceptanceCertificate)
+﻿SaveRecipientContent
 ===============================================
 
 Метод объекта :doc:`XmlAcceptanceCertificate <XmlAcceptanceCertificate>`.

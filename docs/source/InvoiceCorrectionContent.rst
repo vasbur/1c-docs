@@ -37,7 +37,7 @@
 
 - **Type** (строка, чтение, --- ) - тип документа
 
-- **Items** (:doc:`InvoiceCorrection Item <InvoiceCorrectionItem>`, чтение, обязательно для заполнения ) - табличная часть корректировочного счет-фактуры
+- **Items** (:doc:`InvoiceCorrectionItem <InvoiceCorrectionItem>`, чтение, обязательно для заполнения ) - табличная часть корректировочного счет-фактуры
 
 - **TotalsInc** (объект :doc:`InvoiceTotalsDiff <InvoiceTotalsDiff>`, чтение, --- ) - итоговая сумма к увеличению
 
@@ -58,4 +58,5 @@
    :hidden:
 
    AddItem-(InvoiceCorrectionContent) <AddItem-(InvoiceCorrectionContent)>
-
+   InvoiceCorrectionItem <InvoiceCorrectionItem>
+   InvoiceTotalsDiff <InvoiceTotalsDiff>   

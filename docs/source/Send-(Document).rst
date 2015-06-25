@@ -1,4 +1,4 @@
-﻿Send (Document)
+﻿Send 
 ===============
 
 Метод объекта :doc:`Send <1S_Send_Desc>`

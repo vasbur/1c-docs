@@ -43,4 +43,4 @@
    :hidden:
 
    AddItem-(AcceptanceCertificateSellerContent) <AddItem-(AcceptanceCertificateSellerContent)>
-
+   AcceptanceCertificateItem <AcceptanceCertificateItem>

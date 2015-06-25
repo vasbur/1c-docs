@@ -56,4 +56,6 @@
 
    AddItem-(InvoiceContent) <AddItem-(InvoiceContent)>
    AddPaymentDocument-(InvoiceContent) <AddPaymentDocument-(InvoiceContent)>
-
+   InvoiceItem-(Invoice) <InvoiceItem-(Invoice)>
+   PaymentDocument <PaymentDocument>
+   InvoiceTotals <Итоги-InvoiceTotals>

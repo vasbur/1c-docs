@@ -1,4 +1,4 @@
-﻿Reject (NonformalizedTorg12)
+﻿Reject 
 ============================
 
 Метод объекта :doc:`NonformalizedTorg12 <NonformalizedTorg12>`.

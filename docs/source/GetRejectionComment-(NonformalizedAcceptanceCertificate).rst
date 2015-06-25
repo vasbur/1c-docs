@@ -1,4 +1,4 @@
-﻿GetRejectionComment (NonformalizedAcceptanceCertificate)
+﻿GetRejectionComment 
 ========================================================
 
 Метод объекта

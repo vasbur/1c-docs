@@ -1,4 +1,4 @@
-﻿AddPaymentDocument (InvoiceContent)
+﻿AddPaymentDocument 
 ===================================
 
 Метод объекта :doc:`InvoiceContent <InvoiceContent>`

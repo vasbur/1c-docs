@@ -1,4 +1,4 @@
-﻿Content (Invoice)
+﻿Content 
 =================
 
 Объектная модель данных :doc:`Invoice <Invoice>`.

@@ -1,4 +1,4 @@
-﻿GetContent (InvoiceRevision)
+﻿GetContent 
 ============================
 
 Метод объекта :doc:`InvoiceRevision <InvoiceRevision>`.

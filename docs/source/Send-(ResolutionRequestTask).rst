@@ -1,4 +1,4 @@
-﻿Send (ResolutionRequestTask)
+﻿Send 
 ============================
 
 Метод объекта :doc:`ResolutionRequestTask <ResolutionRequestTask>`

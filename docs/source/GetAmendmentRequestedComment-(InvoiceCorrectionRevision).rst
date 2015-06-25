@@ -1,4 +1,4 @@
-﻿GetAmendmentRequestedComment (InvoiceCorrectionRevision)
+﻿GetAmendmentRequestedComment 
 ========================================================
 
 Метод объекта :doc:`InvoiceCorrectionRevision <InvoiceCorrectionRevision>`.

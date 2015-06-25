@@ -1,4 +1,4 @@
-﻿Accept (Contract)
+﻿Accept 
 =================
 
 Метод объекта :doc:`Contract <Contract>`.

@@ -1,4 +1,4 @@
-﻿GetContent (XmlTorg12)
+﻿GetContent 
 ======================
 
 Метод объекта :doc:`XmlTorg12 <XmlTorg12>`.

@@ -1,4 +1,4 @@
-﻿SaveContent (SendTask)
+﻿SaveContent 
 ======================
 
 Метод объекта :doc:`SendTask <SendTask>`

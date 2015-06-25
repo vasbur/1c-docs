@@ -1,4 +1,4 @@
-﻿GetRejectionComment (NonformalizedTorg12)
+﻿GetRejectionComment 
 =========================================
 
 Метод объекта :doc:`NonformalizedTorg12 <NonformalizedTorg12>`.

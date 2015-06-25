@@ -1,4 +1,4 @@
-﻿Accept (Nonformalized)
+﻿Accept 
 ======================
 
 Метод объекта :doc:`Nonformalized <Nonformalized>`.

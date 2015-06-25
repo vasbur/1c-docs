@@ -74,4 +74,6 @@
 
    AddItem-(Torg12SellerContent) <AddItem-(Torg12SellerContent)>
    SaveExternalCodes <SaveExternalCodes>
-
+   Torg12Item <Torg12Item>
+   Torg12Totals <Torg12Totals>
+   Torg12Commons <Torg12Commons>

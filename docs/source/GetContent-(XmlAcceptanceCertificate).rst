@@ -1,4 +1,4 @@
-﻿GetContent (XmlAcceptanceCertificate)
+﻿GetContent 
 =====================================
 
 Метод объекта :doc:`XmlAcceptanceCertificate <XmlAcceptanceCertificate>`.

@@ -48,3 +48,14 @@
 
 В качестве URL сервера Диадок необходимо передавать строку
 "https://diadoc-api.kontur.ru:443"
+
+.. toctree::
+   :name: Auto
+   :hidden:
+
+   TestConnection <TestConnection>
+   GetVersion <GetVersion>
+   GetPersonalCertificates <GetPersonalCertificates>
+   VerifyThatUserHasAccessToAnyBox <VerifyThatUserHasAccessToAnyBox>
+   CreateConnectionByLogin <CreateConnectionByLogin>
+   CreateConnectionByCertificate <CreateConnectionByCertificate>

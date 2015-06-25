@@ -1,4 +1,4 @@
-﻿GetBuyerContent (XmlAcceptanceCertificate)
+﻿GetBuyerContent 
 ==========================================
 
 Метод объекта :doc:`XmlAcceptanceCertificate <XmlAcceptanceCertificate>`.

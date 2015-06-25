@@ -1,4 +1,4 @@
-﻿Reject (XmlAcceptanceCertificate)
+﻿Reject 
 =================================
 
 Метод объекта :doc:`XmlAcceptanceCertificate <XmlAcceptanceCertificate>`.

@@ -1,4 +1,4 @@
-﻿CreateReplySendTask (XmlAcceptanceCertificate)
+﻿CreateReplySendTask 
 ==============================================
 
 Метод объекта :doc:`XmlAcceptanceCertificate <XmlAcceptanceCertificate>`.

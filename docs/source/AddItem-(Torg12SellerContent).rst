@@ -1,4 +1,4 @@
-﻿AddItem (Torg12SellerContent)
+﻿AddItem 
 =============================
 
 Метод объекта :doc:`Torg12SellerContent <Torg12SellerContent>`

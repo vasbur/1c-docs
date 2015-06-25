@@ -1,4 +1,4 @@
-﻿GetRejectionComment (Contract)
+﻿GetRejectionComment 
 ==============================
 
 Метод объекта :doc:`Contract <Contract>`.

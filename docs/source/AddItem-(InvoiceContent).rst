@@ -1,4 +1,4 @@
-﻿AddItem (InvoiceContent)
+﻿AddItem 
 ========================
 
 Метод объекта :doc:`InvoiceContent <InvoiceContent>`

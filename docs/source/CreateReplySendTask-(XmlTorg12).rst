@@ -1,4 +1,4 @@
-﻿CreateReplySendTask (XmlTorg12)
+﻿CreateReplySendTask 
 ===============================
 
 Метод объекта :doc:`XmlTorg12 <XmlTorg12>`.

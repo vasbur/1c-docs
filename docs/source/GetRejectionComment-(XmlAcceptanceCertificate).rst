@@ -1,4 +1,4 @@
-﻿GetRejectionComment (XmlAcceptanceCertificate)
+﻿GetRejectionComment 
 ==============================================
 
 Метод объекта :doc:`XmlAcceptanceCertificate <XmlAcceptanceCertificate>`.

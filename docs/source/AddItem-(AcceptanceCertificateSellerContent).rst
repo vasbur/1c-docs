@@ -1,4 +1,4 @@
-﻿AddItem (AcceptanceCertificateSellerContent)
+﻿AddItem 
 ============================================
 
 Метод объекта

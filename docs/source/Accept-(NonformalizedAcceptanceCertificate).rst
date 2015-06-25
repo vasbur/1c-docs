@@ -1,4 +1,4 @@
-﻿Accept (NonformalizedAcceptanceCertificate)
+﻿Accept
 ===========================================
 
 Метод объекта

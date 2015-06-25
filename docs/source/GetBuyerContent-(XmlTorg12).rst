@@ -1,4 +1,4 @@
-﻿GetBuyerContent (XmlTorg12)
+﻿GetBuyerContent 
 ===========================
 
 Метод объекта :doc:`XmlTorg12 <XmlTorg12>`.

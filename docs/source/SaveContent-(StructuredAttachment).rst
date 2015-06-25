@@ -1,4 +1,4 @@
-﻿SaveContent (StructuredAttachment)
+﻿SaveContent 
 ==================================
 
 Метод объекта :doc:`StructuredAttachment <StructuredAttachment>`.

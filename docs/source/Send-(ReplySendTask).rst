@@ -1,4 +1,4 @@
-﻿Send (ReplySendTask)
+﻿Send 
 ====================
 
 Метод объекта :doc:`ReplySendTask <ReplySendTask>`
