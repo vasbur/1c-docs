@@ -26,3 +26,9 @@
 
 -  :doc:`Send <Send-(ResolutionRequestTask)>` - отправить запрос на
    согласование на сервер Диадок
+
+.. toctree::
+   :name: Auto
+   :hidden:
+
+   Send <Send-(ResolutionRequestTask)>

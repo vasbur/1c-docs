@@ -13,3 +13,10 @@
 
 -  :doc:`GetItem <GetItem>` - позволяет получить элемент коллекции по
    индексу
+
+
+.. toctree::
+   :name: Auto
+   :hidden:
+
+   GetItem <GetItem>

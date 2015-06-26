@@ -24,7 +24,7 @@
    (заполняется только в случае DocumentsAccessLevel =
    SelectedDepartments)
 
-Свойство DocumentsAccessLevel принимает одно из следующих значений:
+Свойство **DocumentsAccessLevel** принимает одно из следующих значений:
 
 -  DepartmentOnly - пользователю доступны только документы из
    подразделения, в котором он состоит

@@ -19,3 +19,10 @@
    титул покупателя на корректность заполнения
 -  :doc:`Send <Send-(ReplySendTask)>` - отправить титул покупателя на
    сервер Диадок
+
+.. toctree::
+   :name: Auto
+   :hidden:
+
+   ValidateContent <ValidateContent-(ReplySendTask)>
+   Send <Send-(ReplySendTask)>

@@ -6,31 +6,31 @@
 Свойства
 --------
 
--  Content (чтение/запись) - содержание документа
--  CounterAgentId (строка, чтение/запись) - идентификатор контрагента
--  FileName (строка, чтение/запись) - имя файла вложения
--  Comment (строка, чтение/запись) - комментарий
--  OneSDocumentId (строка, чтение/запись) - идентификатор 1С
--  OperationId (строка, чтение/запись) - уникальный идентификатор
+-  **Content** (чтение/запись) - содержание документа
+-  **CounterAgentId** (строка, чтение/запись) - идентификатор контрагента
+-  **FileName** (строка, чтение/запись) - имя файла вложения
+-  **Comment** (строка, чтение/запись) - комментарий
+-  **OneSDocumentId** (строка, чтение/запись) - идентификатор 1С
+-  **OperationId** (строка, чтение/запись) - уникальный идентификатор
    операции
--  CustomDocumentId (строка, чтение/запись) - внешний идентификатор
--  FromDepartmentId (строка, чтение/запись) - идентификатор
+-  **CustomDocumentId** (строка, чтение/запись) - внешний идентификатор
+-  **FromDepartmentId** (строка, чтение/запись) - идентификатор
    подразделения отправителя
--  ToDepartmentId (строка, чтение/запись) - идентификатор подразделения
+-  **ToDepartmentId** (строка, чтение/запись) - идентификатор подразделения
    получателя
--  DelaySend (булево, чтение/запись) признак того, что сообщение будет
+-  **DelaySend** (булево, чтение/запись) признак того, что сообщение будет
    сохранено без отправки
--  InitialDocuments (объект :doc:`Collection <Collection>`, чтение) -
+-  **InitialDocuments** (объект :doc:`Collection <Collection>`, чтение) -
    список идентификаторов документов, на которые должен ссылаться
    отправляемый документ
--  SubordinateDocuments (объект :doc:`Collection <Collection>`, чтение) -
+-  **SubordinateDocuments** (объект :doc:`Collection <Collection>`, чтение) -
    список идентификаторов документов, которые должны ссылаться на
    отправляемый
--  IsInternal (булево, чтение/запись) - признак того, что сообщение
+-  **IsInternal** (булево, чтение/запись) - признак того, что сообщение
    является внутренним, то есть сообщением между подразделениями
    организации
 
-Свойство <Content> имеет один из следующих типов
+Свойство **Content** имеет один из следующих типов
 
 -  :doc:`InvoiceContent <InvoiceContent>` - счет-фактура/исправление
    счет-фактуры
@@ -45,7 +45,7 @@
    - акт о выполнении работ/оказании услуг, титул исполнителя
 -  :doc:`AcceptanceCertificateBuyerContent <AcceptanceCertificateBuyerContent>`
    - акт о выполнении работ/оказании услуг, титул заказчика
--  :doc:`NonformilizedDocumentContent <NonformilizedDocumentContent>` -
+-  :doc:`NonformilizedContent <NonformilizedContent>` -
    неформализованный документ/протокол согласования цены/реестр
    сертификатов/акт сверки/детализация
 -  :doc:`Torg12Content <Torg12Content>` - товарная накладная ТОРГ-12 в
@@ -53,7 +53,7 @@
 -  :doc:`AcceptanceCertificateContent <AcceptanceCertificateContent>` - акт
    о выполнении работ в неформализованном виде
 -  :doc:`ProformaInvoiceContent <ProformaInvoiceContent>` - счет на оплату
--  :doc:`ContractDocumentContent <ContractDocumentContent>` - договор
+-  :doc:`ContractContent <ContractContent>` - договор
 
 Методы
 ------
@@ -66,7 +66,20 @@
 -  :doc:`SendAsync <SendAsync>` - инициирует асинхронную отправку документа
 -  :doc:`SaveContent <SaveContent-(SendTask)>` - на основании содержания
    документа формирует файл документа и сохраняет его на диск
--  :doc:`ValidateContent <ValidateContent>` - проверяет содержание
+-  :doc:`ValidateContent <ValidateContent-(SendTask)>` - проверяет содержание
    документа на корректность заполнения
--  [AddStructuredDataAttachment] (AddStructuredDataAttachment) -
+-  :doc:`AddStructuredDataAttachment <AddStructuredDataAttachment>` -
    добавляет файл со структурированными данными в отправляемый документ
+
+
+.. toctree::
+   :name: Auto
+   :hidden:
+
+   AddInitialDocument <AddInitialDocument>
+   AddSubordinateDocument <AddSubordinateDocument>
+   Send <Send-(Document)>
+   SendAsync <SendAsync>
+   SaveContent <SaveContent-(SendTask)>
+   ValidateContent <ValidateContent-(SendTask)>
+   AddStructuredDataAttachment <AddStructuredDataAttachment>
