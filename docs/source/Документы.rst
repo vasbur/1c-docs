@@ -91,7 +91,9 @@
 Методы объекта
 --------------
 
--  :doc:`SaveAllContent <SaveAllContent>` - сохраняет все файлы, относящиеся к документу, на локальный диск
+-  :doc:`SaveAllContent <SaveAllContent>` - сохраняет все файлы, относящиеся к документу (в т.ч. электронные подписи), в указанную директорию
+
+-  :doc:`SaveAllContentAsync <SaveAllContentAsync>` - асинхронно сохраняет все файлы, относящиеся к документу (в т.ч. электронные подписи), в указанную директорию
 
 -  :doc:`GetComment <GetComment>` - возвращает комментарий к документу, заданный при отправке
 
@@ -130,10 +132,11 @@
    :hidden:
 
    SaveAllContent <SaveAllContent>
+   SaveAllContentAsync <SaveAllContentAsync>
    GetComment <GetComment>
    Move <Move>
    Delete <Delete>
-   1S_SaveSenderContent <1S_SaveSenderContent>
+   SaveContent <SaveContent>
    Approve <Approve>
    Disapprove <Disapprove>
    SetOneSDocumentId <SetOneSDocumentId>
@@ -195,7 +198,7 @@
 Для работы с содержимым формализованных документов можно использовать специальные объекты, которые представляют данные xml-файла в виде объектной модели.
 
 Объектные модели документов
-""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""
 
 В компоненте реализованы следующие объекты:
 
@@ -206,9 +209,12 @@
 - :doc:`ProformaInvoiceContent <ProformaInvoiceContent>` - для работы с :doc:`счетом на оплату <NonformalizedProformaInvoice>`
 - :doc:`NonformilizedContent <NonformilizedContent>` - для работы с :doc:`счетом на оплату <Nonformalized>`
 - :doc:`ContractContent <ContractContent>` - для работы с документом :doc:`договор <Contract>`
+- :doc:`Torg12Content <Torg12Content>` - для работы с неформализованной Торг-12
+- :doc:`AcceptanceCertificateContent <AcceptanceCertificateContent>` - для работы с неформализованным актом выполненных работ
+
 
 .. toctree::
-   :name: Auto
+   :name: Auto2
    :hidden:
 
    InvoiceContent <InvoiceContent>
@@ -220,6 +226,8 @@
    ProformaInvoiceContent <ProformaInvoiceContent> 
    NonformilizedContent <NonformilizedContent>
    ContractContent <ContractContent>
+   Torg12Content <Torg12Content>
+   AcceptanceCertificateContent <AcceptanceCertificateContent>
 
 Вспомогательные объекты
 """"""""""""""""""""""""""""""
@@ -237,11 +245,12 @@
 
 
 .. toctree::
-   :name: Auto
+   :name: Auto3
    :hidden:
 
    OrganizationInfo <OrganizationInfo>
    ShipperOrConsigneeInfo <ShipperOrConsigneeInfo>
    AddressInfo <AddressInfo>
    Signer <Signer>
+   Official <Official>
    Attorney <Attorney>

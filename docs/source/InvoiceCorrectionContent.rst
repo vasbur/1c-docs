@@ -59,4 +59,6 @@
 
    AddItem-(InvoiceCorrectionContent) <AddItem-(InvoiceCorrectionContent)>
    InvoiceCorrectionItem <InvoiceCorrectionItem>
-   InvoiceTotalsDiff <InvoiceTotalsDiff>   
+   InvoiceTotalsDiff <InvoiceTotalsDiff> 
+   InvoiceItemFields <InvoiceItemFields>
+   AmountsDiff <AmountsDiff>  

@@ -1,9 +1,0 @@
-﻿Общие структуры содержимого документов
-======================================
-
-Р Р°Р·РґРµР» СЃРѕРґРµСЂР¶РёС‚ РѕР±СЉРµРєС‚С‹, РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ
-СЃРѕРґРµСЂР¶РёРјС‹Рј СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° -
-:doc:`OrganizationInfo <OrganizationInfo>` -
-:doc:`ShipperOrConsigneeInfo <ShipperOrConsigneeInfo>` -
-:doc:`AddressInfo <AddressInfo>` - :doc:`Signer <Signer>` -
-:doc:`Official <Official>` - :doc:`Attorney <Attorney>`

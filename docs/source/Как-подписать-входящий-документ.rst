@@ -30,9 +30,8 @@
 
                           ReplySendTask.Send();
 
-   -  Неформализованные документы подписываются методом Accept (`Accept
-:doc:      объекта NonformalizedTorg12 <Accept-(NonformalizedTorg12)>`,
-      :doc:`Accept объекта Nonformalized <#1S_Accept11>` и т.д.)
+   -  Неформализованные документы подписываются методом Accept (:doc:`Accept объекта NonformalizedTorg12 <Accept-(NonformalizedTorg12)>`,
+      :doc:`Accept объекта Nonformalized <Accept-(Nonformalized)>` и т.д.)
 
       Пример:
 
@@ -42,9 +41,7 @@
 
 2. Отказать в подписи
 
-   Для всех типов документов применятся метод Reject (`Reject объекта
-:doc:   NonformalizedTorg12 <#1S_Reject>`, `Reject объекта
-:doc:   XmlTorg12 <#1S_Reject2>` и т.д.), где параметром можно передать
+   Для всех типов документов применятся метод Reject (:doc:`Reject объекта NonformalizedTorg12 <Reject-(NonformalizedTorg12)>`, `Reject объекта :doc:   XmlTorg12 <Reject-(XmlTorg12)>` и т.д.), где параметром можно передать
    свой комментарий отказа в подписи
 
    Пример:
